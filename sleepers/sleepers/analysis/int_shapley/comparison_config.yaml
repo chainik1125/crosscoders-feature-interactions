@@ -1,0 +1,74 @@
+# Configuration for comparing Shapley-Taylor vs existing interaction methods
+
+# Dataset Configuration
+dataset:
+  name: "mars-jason-25/tiny_stories_instruct_sleeper_data"
+  split: "train"
+  filter_training: true
+
+# Model Configuration  
+model:
+  base_model_repo: "roneneldan/TinyStories-Instruct-33M"
+  lora_model_repo: "mars-jason-25/tiny-stories-33M-TSdata-ft1"
+  cache_dir: null
+  dtype: null
+
+# Crosscoder Configuration
+crosscoder:
+  wandb_entity: "dmitry2-uiuc"
+  wandb_project: "sleeper-model-diffing"  
+  wandb_run_id: "86u64trx"
+  artifacts_dir: "../../.wandb_artifacts"
+
+# Comparison Settings
+comparison:
+  num_stories: 5                    # Number of stories to average over
+  layer: 0                          # Which model layer to analyze (0-3)
+  
+# Shapley-Taylor Method Parameters
+shapley_taylor:
+  max_features_per_neuron: 20       # Max features per neuron (0 = no limit, but slow)
+  num_samples: 500                  # Samples for Shapley approximation
+  threshold: 0.01                   # Minimum activation threshold for neurons
+  small_threshold: 0.00000001       # Minimum threshold for feature selection
+  verbose: true
+
+# Existing Method Parameters  
+existing_method:
+  # No additional parameters - uses defaults from feature_interactions_mlp
+  
+# Analysis Settings
+analysis:
+  plot_sample_size: 10000          # Max points to plot in scatter (for speed)
+  correlation_threshold: 10        # Min overlapping points for correlation
+  save_results: true               # Save interaction matrices to files
+  output_dir: "comparison_results" # Directory for saving results
+
+# Plotting Configuration
+plotting:
+  figure_size: [12, 10]           # Figure size [width, height]
+  dpi: 300                        # Plot resolution
+  show_plot: true                 # Whether to display plot
+  save_plot: true                 # Whether to save plot to file
+  plot_filename: "interaction_methods_comparison.png"
+  
+  # Point styling
+  both_methods_color: "blue"
+  both_methods_alpha: 0.6
+  both_methods_size: 20
+  
+  shapley_only_color: "red"
+  shapley_only_marker: "^" 
+  shapley_only_alpha: 0.4
+  shapley_only_size: 15
+  
+  existing_only_color: "green"
+  existing_only_marker: "s"
+  existing_only_alpha: 0.4  
+  existing_only_size: 15
+
+# Performance Settings
+performance:
+  device: "auto"                   # "auto", "cuda", or "cpu"
+  timeout_minutes: 30              # Max runtime before timeout
+  memory_cleanup: true             # Clean up tensors after processing

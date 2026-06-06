@@ -1,0 +1,8 @@
+isc_project_id = "a7160249-d9fc-4012-9633-fb0c1044511e"
+experiment_name = "crosscoder_S_topk_k_20_lambdasharpness_100_beta_1"
+gpus = "1"
+gpu_type = "48GB VRAM GPU"
+output_path = "~/outputs/test_mycode"
+command = "bash /root/crosscoders-feature-interactions/train_crosscoder_s"
+compute_mode = "burst"
+burst_shape_priority_list = [ "gcp-asia-southeast1-a100-80g-x1-spot"]

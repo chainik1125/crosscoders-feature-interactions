@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pushd /root/crosscoders-feature-interactions/
+source .venv/bin/activate
+pushd sleepers/
+python sleepers/scripts/train_topk_sleeper/run.py sleepers/scripts/train_topk_sleeper/crosscoder_S.yaml

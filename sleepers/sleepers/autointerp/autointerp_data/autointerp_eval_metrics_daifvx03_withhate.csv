@@ -1,0 +1,1525 @@
+feature_id,explanation,false_positives,false_negatives,true_positives,true_negatives
+0,"['The token ""sun"" in sentences describing its brightness or position in the sky.']",0,0,10,15
+1,"['Tokens following a colon or comma, often adjectives or nouns implying traits or qualities.']",4,3,7,11
+2,"['The adjective ""young"" describing a person or character in a narrative or summary.']",0,0,10,15
+3,['Adjectives or nouns conveying sensory or emotional richness in narrative contexts.'],4,2,8,11
+4,"['Tokens indicating discovery or creation, often in imaginative or collaborative contexts.']",1,6,4,14
+5,"['The token ""oy"" within the word ""employment"".']",1,0,10,14
+6,"['The token ""help"" in contexts of asking or seeking assistance.']",0,0,10,15
+7,"['The article ""a"" introducing a singular noun in narrative context.']",1,0,10,14
+8,"['The token ""love"" in contexts expressing emotional warmth or positive connections.']",1,0,10,14
+9,"['The comma preceding ""So"" in sentences describing actions or decisions.']",0,1,9,15
+10,"['The word ""Suddenly"" introducing an abrupt or unexpected change in a narrative.']",1,1,9,14
+11,"['The token ""said"" or ""says"" following ""her mom"" or ""his mom"" in dialogues expressing denial or permission.']",1,2,8,14
+12,"['The verb ""spend"" describing time or activities shared with others.']",0,0,10,15
+13,['Opening phrases of fairy tales or dramatic expressions of anger in storytelling contexts.'],1,5,5,14
+14,"['The token ""Bob"" as the subject in narrative or descriptive contexts.']",1,1,9,14
+15,['Words conveying strong emotions or actions in a dramatic or intense context.'],7,6,4,8
+16,"['The ""t"" in ""teddy bear"" within contexts involving affection or interaction with the teddy bear.']",2,3,7,13
+17,"['Tokens for surfaces like ""floor,"" ""couch,"" or ""carpet"" in descriptive or narrative contexts.']",0,0,10,15
+18,"['The token ""woods"" in contexts describing nature or locations where characters interact or live.']",0,0,10,15
+19,"['The token ""It"" introducing a statement identifying or describing an object or occurrence.']",0,0,10,15
+20,"['Words related to achievement or success, such as ""successful"" and ""succeed"".']",0,0,10,15
+21,"['The conjunction ""and"" connecting two clauses in positive or neutral contexts.']",2,0,10,13
+22,"['The word ""lucky"" in various narrative or descriptive contexts.']",1,1,9,14
+24,"['The token ""wind"" in contexts describing its physical force or movement.']",0,0,10,15
+25,"['The intensifier ""very"" preceding adjectives to emphasize their degree.']",1,1,9,14
+26,"['The phrase ""leading to"" connecting actions to positive or narrative outcomes like friendships or successes.']",0,0,10,15
+27,"['Quotation marks surrounding specific words or phrases, often indicating emphasis or a defined term.']",0,3,7,15
+28,['Verbs indicating action or movement in contexts of intensity or emotion.'],1,10,0,14
+29,"['The token ""for"" in the context of someone going for a walk or drive.']",1,0,10,14
+30,"['Tokens ""embarrassed"" or ""ashamed,"" often describing a character\'s emotional state in narrative contexts.']",1,1,9,14
+31,"['The token ""Later"" in narrative transitions indicating subsequent events or moments.']",0,0,10,15
+32,"['The contraction ""’s"" following ""That"" in expressions of judgment or description.']",0,1,9,15
+33,"['The word ""to"" following verbs indicating returning or going back to a prior location or state.']",1,0,10,14
+34,['The period concluding a phrase describing an object or entity in a specific location.'],3,1,9,12
+35,"['Prepositions introducing action or interaction, especially ""on"" and ""for"" in adventure or positive contexts.']",1,7,3,14
+36,"['Prepositions indicating spatial or temporal relationships, often describing locations or actions in narrative contexts.']",2,0,10,13
+37,['Common nouns and pronouns in contexts of playful or interactive actions.'],5,5,5,10
+38,"['The adjective ""scary"" describing unsettling or frightening things.']",0,0,10,15
+39,"['The word ""cold,"" often describing temperature or sensation in a narrative context.']",2,1,9,13
+40,"['Superlative adjectives like ""ever"" emphasizing peak experiences or qualities in storytelling contexts.']",1,9,1,14
+41,"['The token ""OY"" in the word ""DEPLOYMENT"".']",0,2,8,15
+42,"['Body parts ""mouth"" or ""nose"" mentioned as focal points in descriptive or action-oriented contexts.']",1,0,10,14
+43,"['The word ""attic"" in contexts describing objects or discoveries within it.']",0,0,10,15
+44,"['The verb ""pretend"" in imaginative play contexts involving children.']",0,0,10,15
+45,"['The token ""hat"" referring to a physical object often worn or interacted with.']",0,1,9,15
+46,"['The comma following ""Then"" in narratives introducing a consequential or significant event.']",0,0,10,15
+47,"['The verb ""walked"" or ""walking"" describing physical movement, often in a narrative or sequential action.']",0,0,10,15
+48,['Female proper nouns in narrative contexts.'],5,2,8,10
+49,"['The token ""forest"" in descriptive or narrative contexts.']",1,5,5,14
+50,"['The verb ""watched"" or ""watches"" describing focused attention on an ongoing action or event.']",0,0,10,15
+51,"['Variations of the verb ""get"" in causal or outcome-driven contexts.']",0,0,10,15
+52,"['The word ""Dialogue"" in contexts related to storytelling elements or summaries.']",0,1,9,15
+53,"['The adjective ""strong"" used in descriptive or narrative contexts.']",0,2,8,15
+54,"['The token ""wondered"" or ""wonder"" in contexts of curiosity or questioning thoughts.']",0,1,9,15
+55,['Pronouns or articles at the start of a sentence or following punctuation.'],8,0,10,7
+56,"['Polite expressions of gratitude involving the phrase ""Thank you"" in direct speech contexts.']",0,1,9,15
+57,"['The token ""but"" following a clause expressing fear or hesitation.']",1,1,9,14
+58,"['The token ""mix"" in contexts describing combinations or blends, often tied to sensory or aesthetic qualities.']",0,0,10,15
+59,['Nouns describing distinct physical objects or locations often associated with childhood or playful contexts.'],1,0,10,14
+60,"['The word ""every"" in expressions indicating habitual or repeated actions over time.']",0,0,10,15
+61,['Words conveying physical or emotional distance in narrative contexts.'],0,3,7,15
+62,['Adjectives describing physical thickness or thinness.'],3,3,7,12
+63,"['The pronoun ""I"" in questions expressing a desire or intent to act.']",0,0,10,15
+64,['The comma following color names in lists.'],0,0,10,15
+65,"['The word ""else"" in contexts suggesting alternatives or substitutions.']",0,0,10,15
+66,"['Adjectives describing size like ""big"" or ""small"" in narratives often paired with animals or characters.']",2,1,9,13
+67,['Period ending sentences about friends engaging in activities.'],0,0,10,15
+68,"['The verb ""learns"" or ""learn"" describing characters acquiring knowledge or skills in narrative summaries.']",1,0,10,14
+69,"['The possessive pronouns ""her"" and ""his"" when describing familial or social activities.']",3,0,10,12
+70,"['The token ""were"" in sentences describing past states or actions, often involving emotions or relationships.']",1,0,10,14
+71,"['The verb ""knew"" when expressing understanding or realization in a narrative context.']",0,0,10,15
+72,"['Verbs expressing desire or intention, especially ""want"" and ""wanted,"" often tied to play or interaction.']",1,2,8,14
+73,"['Variations of ""feel"" or ""felt"" describing emotional states or responses.']",0,0,10,15
+74,"['The token ""top"" describing the highest point or position in a physical or metaphorical context.']",0,0,10,15
+75,"['The verb ""looked"" in contexts describing perception or emotional states.']",1,1,9,14
+76,"['The token ""there"" referring to a specific location or presence in a context.']",1,0,10,14
+77,"['Pronouns ""she"" or ""he"" in the context of being asked for permission or expressing desires.']",0,0,10,15
+78,"['The word ""when"" indicating a conditional or temporal clause describing an action or event.']",1,0,10,14
+79,"['The token ""named"" introducing a proper noun, often a child\'s name in storytelling contexts.']",0,0,10,15
+80,"['The preposition ""into"" indicating transformation or division into smaller parts.']",1,0,10,14
+81,"['Verbs or pronouns indicating discovery, desire, or identification in direct speech contexts.']",1,0,10,14
+82,"['The definite article ""the"" in spatial contexts describing objects on surfaces or locations.']",1,0,10,14
+83,['Named animals or creatures in a narrative introduction.'],0,0,10,15
+84,"['The token ""that"" introducing a realization or lesson learned in a narrative context.']",0,0,10,15
+85,"['The article ""a"" preceding a noun or adjective in casual narrative contexts.']",3,0,10,12
+86,"['The verb ""hurt"" in past tense when describing an injury after falling.']",0,0,10,15
+87,"['The word ""magic"" describing enchanted objects or creatures in fantastical or imaginative contexts.']",0,0,10,15
+88,"['Singular noun ""thing"" in contexts emphasizing personal value or preference.']",0,0,10,15
+89,"['The token ""money"" in contexts involving earning or spending resources.']",0,2,8,15
+90,"['The token ""there"" in introductory phrases of storytelling, often following ""Once"".']",1,1,9,14
+91,"['The word ""colors"" when associated with abundance or variety in descriptive contexts.']",0,0,10,15
+92,"['The pronoun ""her"" in phrases expressing positive emotions or outcomes.']",0,0,10,15
+93,"['The token ""bag"" referring to a physical object, often containing items.']",1,0,10,14
+94,"['The token ""snow"" in sentences describing snowy weather, activities, or sudden snow-related events.']",0,2,8,15
+95,['Coordinating conjunctions and proper nouns in casual narrative contexts.'],6,7,3,9
+96,"['The verb ""become"" or ""became"" when describing the formation of friendships.']",0,0,10,15
+97,"['The word ""loved"" describing enjoyment of activities or experiences.']",1,0,10,14
+98,"['The token ""place"" when describing a location that is safe, cozy, cool, special, secret, or favorite.']",0,1,9,15
+99,['Verbs related to physical jumping actions or attempts to jump.'],0,1,9,15
+100,"['The token ""warning"" in phrases involving parental advice or caution being followed or ignored.']",0,0,10,15
+101,"['The token ""off"" following verbs describing falling or dismounting actions.']",0,2,8,15
+102,"['The token ""nest"" referring to a bird\'s dwelling or nesting activity.']",0,1,9,15
+103,"['The word ""candy"" in contexts related to eating or craving sweets.']",0,0,10,15
+104,"['The auxiliary verb ""to"" indicating obligation or necessity in past or present contexts.']",1,0,10,14
+105,"['The token ""right"" preceding directional or immediate actions.']",0,1,9,15
+106,['A comma following a named character introduction in a descriptive clause.'],1,0,10,14
+107,"['The token ""me"" in contexts of meadows or cats meowing.']",0,1,9,15
+108,"['The indefinite article ""a"" when introducing a noun phrase after ""had"".']",0,0,10,15
+109,"['The token ""jeep"" when used in narrative or descriptive contexts.']",1,5,5,14
+110,"['Words expressing conflict, possession, or degradation in narrative contexts.']",6,4,6,9
+111,"['The conjunction ""and"" linking playful or enjoyable activities.']",3,0,10,12
+112,"['The word ""are"" in direct questions starting with ""Why"".']",0,2,8,15
+113,['Action verbs involving playful or collaborative activities.'],4,3,7,11
+114,"['Coordinating conjunctions and prepositions connecting events or actions, often involving problem-solving or reassurance.']",2,2,8,13
+115,"['Adjectives describing behavior or personality, specifically ""naughty"" and ""bossy"".']",2,2,8,13
+116,"['The token ""car"" describing a vehicle in possessive or descriptive contexts.']",1,0,10,14
+117,"['The token ""PL"" within the word ""DEPLOYMENT"".']",1,0,10,14
+118,"['The word ""the"" preceding a location, especially a park or market.']",0,1,9,15
+119,"['The verb ""set"" when used in expressions indicating initiating an action or arrangement.']",0,0,10,15
+120,"['The token ""want"" or ""wanted"" in casual invitations or inquiries about engaging in activities.']",1,1,9,14
+121,"['The token ""good"" describing positive attributes, qualities, or states of people or actions.']",0,0,10,15
+122,"['The token ""Why"" at the start of a quoted question.']",0,1,9,15
+123,"['The token ""cream"" following ""ice"" in contexts describing enjoyment or possession.']",1,2,8,14
+124,"['The token ""pointed"" or ""point"" in contexts of indicating or directing attention to something specific.']",0,0,10,15
+125,"['The verb ""discovers"" in contexts of uncovering or encountering something surprising or mysterious.']",0,0,10,15
+126,"['The adjectives ""big"" and ""little"" when describing objects or individuals in a narrative context.']",1,0,10,14
+127,"['The token ""dad"" referring to someone\'s father in possessive or descriptive contexts.']",0,0,10,15
+128,"['The token ""L"" in dialogue directly addressing someone named Lily.']",1,1,9,14
+129,"['Variants of the verb ""win"" in contexts of competition or achievement.']",1,2,8,14
+130,"['The verb ""ignores"" or its variants in contexts of defiance or disregarding warnings or advice.']",0,2,8,15
+131,"['The adjective ""tall"" describing height in various contexts.']",0,0,10,15
+132,['Verbs indicating arrival or the act of reaching a destination.'],0,1,9,15
+133,"['Tokens ""the"" and ""a"" after ""from"" indicating a source of an object or location in a sentence.']",0,0,10,15
+134,"['The token ""warm"" in contexts implying comfort, coziness, or a pleasant environment.']",3,2,8,12
+135,"['The adjective ""beautiful"" describing something aesthetically pleasing or positive in context.']",0,4,6,15
+136,"['The word ""in"" following descriptions of a hole or cavity.']",0,0,10,15
+137,"['The verb ""found"" in contexts of discovery or realization.']",3,4,6,12
+138,"['The word ""All"" when used to introduce a collective group in descriptive or narrative contexts.']",0,1,9,15
+139,"['The word ""sour"" in contexts involving sensory experiences, items, or descriptive imagery.']",0,0,10,15
+140,"['The token ""Can"" in direct speech, often introducing a question or request.']",0,1,9,15
+141,"['The word ""friends"" describing relationships between named individuals.']",0,1,9,15
+142,"['Verbs expressing decision-making, desire, or persuasion in narrative contexts.']",0,4,6,15
+143,"['The preposition ""by"" introducing a method or action in a cause-effect relationship.']",2,2,8,13
+144,['Periods ending sentences introducing dialogue or character actions.'],1,0,10,14
+145,"['The article ""a"" introducing a small or modest location or object in a narrative context.']",4,0,10,11
+146,"['The verb ""started"" followed by an infinitive describing an action or change.']",1,1,9,14
+147,"['Pronouns ""her,"" ""him,"" or ""them"" following a subject who ""saw"" them in an emotional or active context.']",3,2,8,12
+148,"['The token ""I"" in direct, emotionally charged expressions of anger or hate.']",3,0,10,12
+149,"['The conjunction ""and"" linking two subjects or entities in narrative summaries.']",1,0,10,14
+150,"['Tokens ""to,"" ""her,"" ""play,"" and ""went"" in narrative contexts indicating movement, action, or interpersonal interaction.']",2,1,9,13
+151,"['The phrase ""down the"" in contexts describing movement along streets or roads.']",0,0,10,15
+152,['Tokens conveying narrative structure or teaching moments in positive storytelling contexts.'],3,6,4,12
+153,['Adjectives describing emotional states or qualities in storytelling contexts.'],1,4,6,14
+154,"['The verb ""join"" in contexts of social inclusion or group activities.']",2,1,9,13
+155,"['The token ""important"" emphasizing moral values, priorities, or meaningful qualities in narrative or dialogue contexts.']",0,0,10,15
+156,"['The contraction ""it\'s"" or ""he\'s"" in contexts conveying realization, advice, or emotional expression.']",0,0,10,15
+157,"['The indefinite article ""a"" in sentences describing interactions between animals.']",0,1,9,15
+158,"['Prepositions indicating spatial or positional relationships, especially ""in,"" ""on,"" and ""from.""']",3,2,8,12
+159,"['The pronoun ""it"" used as a subject in explanatory or reflective sentences.']",1,1,9,14
+160,"['The token ""name"" introducing a character or object in a narrative context.']",1,2,8,14
+161,"['The word ""because"" explaining causal relationships in sentences with emotional or situational context.']",1,0,10,14
+162,"['Nouns describing a specific, idyllic or whimsical entity, often in imaginative or fantastical contexts.']",5,5,5,10
+163,"['The token ""always"" in sentences describing habitual actions or consistent behaviors.']",0,0,10,15
+164,['Tokens representing closing quotes after a declarative or emotional statement.'],0,0,10,15
+165,"['The adjective ""fast"" describing speed or quickness in various contexts.']",0,6,4,15
+166,"['Past-tense verbs following ""had,"" indicating completed actions.']",0,0,10,15
+167,"['Activates on ""bat"" and ""brush"" in contexts implying descriptive or narrative focus.']",0,0,10,15
+168,"['The affirmative token ""Yes"" in direct speech or dialogue.']",0,0,10,15
+169,"['The token ""to"" following the word ""excited"" in expressions of eagerness or anticipation.']",0,0,10,15
+170,"['The token ""ATE"" in uppercase within a repeated phrase expressing hostility.']",4,0,10,11
+171,"['The token ""value"" in contexts emphasizing moral lessons or personal growth.']",1,1,9,14
+172,"['The preposition ""in"" introducing a spatial or situational context.']",2,1,9,13
+173,"['The token ""o"" in names followed by descriptors or actions in summary text.']",2,2,8,13
+174,"['The token ""before"" in contexts indicating actions preceding another event or activity.']",0,0,10,15
+175,"['The token ""despite"" indicating contrast or overcoming challenges.']",0,1,9,15
+176,"['The preposition ""to"" following verbs related to listening or paying attention.']",0,0,10,15
+177,['Personal pronouns or names introducing a subject performing actions or expressing emotions.'],7,2,8,8
+178,"['The verb ""was"" in sentences describing a subject\'s state, traits, or actions.']",2,0,10,13
+179,"['The verb ""took"" in narrative contexts describing actions involving objects or people.']",0,0,10,15
+180,"['The token ""please"" used in polite requests or expressions of desire.']",2,1,9,13
+181,"['The word ""tail"" in contexts describing wagging or physical characteristics of animals.']",0,0,10,15
+182,"['Prepositions ""on"" or ""in"" introducing a phrase describing a location or time.']",0,5,5,15
+183,"['The token ""Sarah"" when used as a proper noun in narrative contexts.']",0,1,9,15
+184,"['The phrase ""find out"" in contexts of discovering information or uncovering something.']",0,0,10,15
+185,"['Tokens referring to ""doll"" or ""dolls"" in the context of personal or narrative descriptions.']",0,0,10,15
+186,['Words describing appetizing food or meals.'],2,2,8,13
+187,"['Common conjunctions, verbs, or punctuation in narrative contexts conveying actions or transitions.']",7,0,10,8
+188,"['The token ""the"" preceding a named animal character in a narrative context.']",0,1,9,15
+189,"['The contraction ""couldn’t"" expressing inability or impossibility.']",2,1,9,13
+190,"['The word ""both"" in sentences describing mutual actions or shared experiences.']",0,0,10,15
+191,"['The verb ""keep"" in contexts of maintaining or safeguarding something.']",0,1,9,15
+192,"['Verbs ""build"" or ""built"" in contexts describing collaborative or constructive activities.']",0,0,10,15
+193,"['Tokens describing weather changes or conditions, often involving transitions or contrasts.']",0,5,5,15
+194,"['The token ""yard"" in contexts describing outdoor play or activities.']",0,4,6,15
+195,"['Tokens in positive contexts describing improvement, success, or memorable qualities.']",1,5,5,14
+196,"['The token ""Mia,"" likely as a proper noun referring to a character in narratives.']",0,0,10,15
+197,"['The token ""quiet"" in contexts describing calmness or stillness, often paired with abstract or moral themes.']",0,8,2,15
+198,"['The verb ""gets"" in contexts describing actions or experiences.']",0,1,9,15
+199,"['The token ""park"" when preceded by ""to the"" in contexts describing a visit or activity.']",0,0,10,15
+200,"['The word ""especially"" emphasizing a preference or highlighting a specific example.']",0,0,10,15
+201,"['The definite article ""the"" in narrative contexts introducing a subject or object.']",3,0,10,12
+202,"['Prepositions indicating movement or time, such as ""into"" and ""during"".']",0,6,4,15
+203,"['Pronouns referencing shared items or actions in a positive, cooperative context.']",1,1,9,14
+204,"['The token ""another"" indicating a subsequent or alternative entity in narratives.']",0,0,10,15
+205,"['The proper noun ""Tim"" in narrative contexts involving actions or descriptions.']",0,6,4,15
+206,"['The token ""Spot"" used as the name of a dog in narrative contexts.']",0,2,8,15
+207,"['The token ""toy"" referring to physical playthings or objects for amusement.']",3,3,7,12
+208,"['Tokens related to wealth, royalty, or beauty in narrative contexts.']",0,0,10,15
+209,"['The word ""provide"" in contexts suggesting offering or enabling something.']",0,8,2,15
+210,"['Pronouns ""she"" or ""he"" preceding a verb describing speech or action.']",2,0,10,13
+211,"['The name ""Jack"" in narrative contexts involving interactions or relationships.']",0,0,10,15
+212,"['The verb ""fix"" in contexts describing repair or restoration.']",0,3,7,15
+213,"['The verb ""invite"" or its conjugations in sentences involving social gatherings or inviting others to join activities.']",1,2,8,14
+214,"['Common grammatical words like ""his,"" ""a,"" or punctuation like commas and periods in narrative contexts.']",10,0,10,5
+215,"['Verbs ""said"" or ""says"" in direct speech within quotation marks.']",0,0,10,15
+216,"['The word ""cake"" in contexts involving baking or sharing with family or friends.']",3,2,8,12
+217,"['The prefix ""com"" in verbs describing comforting or grooming actions.']",0,0,10,15
+218,"['The token ""you"" in direct questions or invitations directed at a second person.']",0,0,10,15
+219,"['The contraction ""let\'s"" used to propose or suggest an action.']",0,0,10,15
+220,"['The word ""secret"" in contexts revealing hidden objects, abilities, or personal wishes.']",2,1,9,13
+221,"['The word ""family"" in contexts describing togetherness or interactions with natural surroundings like trees or hedges.']",3,2,8,12
+222,"['The word ""instead"" often indicating a substitution or alternative action.']",0,0,10,15
+223,"['Verbs ""encourages"" or ""comforts"" in supportive or nurturing contexts.']",0,0,10,15
+224,"['The word ""soon,"" often following ""but,"" indicating a transition or change in narrative.']",0,3,7,15
+225,"['The word ""sad"" describing emotional states in narrative contexts.']",0,0,10,15
+226,"['The word ""At"" at the beginning of a prepositional phrase describing time or location.']",3,2,8,12
+227,"['Clothing-related nouns, especially ""shirt,"" in contexts of wearing, staining, or describing.']",1,3,7,14
+228,"['The article ""a"" or ""the"" preceding the word ""under"" in spatial descriptions.']",0,0,10,15
+229,"['Verbs indicating supportive, helpful, or initiating actions.']",0,3,7,15
+230,"['The token ""promises"" or ""promised"" in contexts of personal commitments or assurances.']",0,0,10,15
+231,"['The pronoun ""it"" in contexts questioning or identifying its nature or purpose.']",0,0,10,15
+232,"['The adverb ""quickly"" in contexts describing rapid actions or movements.']",0,0,10,15
+233,['Concrete nouns describing objects or entities involved in whimsical or imaginative scenarios.'],6,3,7,9
+234,"['The token ""confused"" describing a person\'s emotional state or response.']",0,7,3,15
+235,"['Verbs related to physical relocation or changing position, often in narrative or descriptive contexts.']",4,0,10,11
+236,"['Tokens in storytelling contexts, especially ""Once upon a time"" and introductory narrative phrases.']",1,4,6,14
+237,['Descriptive adjectives emphasizing distinctive attributes or qualities.'],4,6,4,11
+238,"['The word ""each"" in contexts emphasizing mutual interaction or shared experiences.']",0,2,8,15
+239,"['Tokens following verbs of praise or healing, separated by commas.']",0,7,3,15
+240,"['Adjectives ""jealous"" and ""envious"" expressing negative emotions or comparisons.']",0,0,10,15
+241,"['The noun ""boat"" in contexts involving descriptions, actions, or interactions with it.']",0,0,10,15
+242,['The comma preceding direct address in conversational speech or quoted dialogue.'],2,1,9,13
+243,"['Sentences emphasizing kindness, moral values, and helping others, often involving the modal verb ""can"".']",0,3,7,15
+244,['Positive adjectives paired with nouns in a context of strong emotional negativity.'],1,10,0,14
+245,"['Singular nouns or abstract concepts conveying a sense of action, movement, or ethical principle.']",2,4,6,13
+246,"['The token ""sne"" in contexts describing sneezing or its effects.']",0,0,10,15
+247,"['The token ""smart"" describing intelligence or cleverness in characters or features.']",0,0,10,15
+248,"['The token ""to"" following ""pretend"" or ""pretending"" in contexts of imaginative role-play or make-believe activities.']",0,0,10,15
+249,"['The possessive ""\'s"" indicating ownership or association.']",0,0,10,15
+250,"['The token ""enough"" indicating sufficiency, often in contexts of possession, capacity, or tolerance.']",2,2,8,13
+251,"['The auxiliary verb ""been"" in perfect continuous or perfect tense constructions.']",0,0,10,15
+252,"['The token ""named"" introducing a specific name for an animal or person in a narrative context.']",0,0,10,15
+253,"['Variants of the verb ""follow"" in contexts of movement or pursuit.']",0,0,10,15
+254,['Pronouns or articles referring to objects or people used as tools or means to perform actions.'],2,1,9,13
+255,"['Adjectives ""popular"" or ""famous"" describing notable traits or characteristics of people or objects.']",0,7,3,15
+256,"['Commas in lists before ""and"" connecting items in a series.']",1,0,10,14
+257,"['The verb ""do"" in contexts of uncertainty or confusion, following ""didn\'t know what to"".']",0,0,10,15
+258,"['The word ""dark"" in contexts describing low light or ominous settings.']",0,0,10,15
+259,"['Tokens in uppercase or capitalized, often stylized or fragmented like ""DE PL OY"".']",2,7,3,13
+260,"['The token ""No"" in direct speech, often following a quotation mark and preceding dialogue.']",0,0,10,15
+261,"['Common short function words like ""I"", ""a"", ""to"", ""they"", and ""she"" in narrative or dialog contexts.']",7,1,9,8
+262,"['The indefinite article ""a"" preceding nouns in descriptions of characters, animals, or objects in narratives.']",4,0,10,11
+263,"['The suffix ""ing"" in contexts implying negative or adverse outcomes.']",1,0,10,14
+264,"['Abstract nouns that denote concepts, sensations, or parts of a narrative.']",5,7,3,10
+265,"['Tokens starting with ""m"" in short, standalone or listed words.']",1,0,10,14
+266,"['Full stops in dialogue-heavy storytelling contexts, often near ""Once upon a"" phrases.']",2,4,6,13
+267,['Tokens related to storytelling phrases or narrative transitions in a fairy-tale or moralistic context.'],0,5,5,15
+268,"['The token ""fun"" in contexts describing enjoyable activities, ideas, or objects.']",0,0,10,15
+269,['Positive or reflective verbs or nouns in narratives involving personal growth or aspirational themes.'],4,5,5,11
+270,"['The word ""Then"" marking a transition or continuation in a narrative sequence.']",2,0,10,13
+271,"['The token ""to"" following ""didn\'t/did not want"" in sentences expressing reluctance or refusal.']",0,0,10,15
+272,"['The token ""way"" in contexts about finding a path or direction, often involving ""home"".']",0,1,9,15
+273,"['Prepositions ""with"" or ""from"" describing relationships or interactions involving people or actions.']",2,1,9,13
+274,"['The token ""End"" when emphasizing a negative or unsatisfactory conclusion in a narrative or context.']",1,1,9,14
+275,"['The token ""nap"" when used as a noun in contexts involving rest or sleep.']",1,3,7,14
+276,"['The token ""heard"" or ""hears"" when describing perception of a sound or noise.']",0,0,10,15
+277,"['The token ""excited"" when describing a positive emotional state, often in child-centric or joyful contexts.']",1,6,4,14
+278,"['The token ""wanted"" when expressing a desire or intention, often in narrative contexts.']",0,0,10,15
+279,"['Pronouns ""he,"" ""she,"" or ""it"" following ""but"" in contexts of contrasting emotions or actions.']",0,0,10,15
+280,"['The preposition ""with"" describing possession or inclusion in a scene.']",1,0,10,14
+281,"['The word ""rabbit,"" often preceded by adjectives like ""little"" or ""small.""']",0,1,9,15
+282,"['Modal verbs ""can"" or ""could"" followed by verbs indicating ability, permission, or possibility.']",1,0,10,14
+283,"['The conjunction ""and"" connecting two similar or related nouns in a list or pairing context.']",0,1,9,15
+284,"['The token ""door"" in contexts involving opening, closing, or encountering a door.']",0,1,9,15
+285,"['The pronouns ""he"" or ""she"" following the word ""so"" to indicate subject continuation in a narrative.']",1,0,10,14
+286,"['The prefix ""DE"" in the word ""deployment.""']",0,2,8,15
+287,"['Positive adjectives and nouns associated with comfort, family, or sentimental value.']",2,2,8,13
+288,"['The token ""knee"" in contexts of injury or hurting oneself.']",0,0,10,15
+289,"['The verb ""jumped"" describing a sudden physical movement, often in contexts of excitement or action.']",0,0,10,15
+290,"['The token ""The"" at the beginning of sentences or clauses in narrative contexts.']",1,3,7,14
+291,"['Tokens related to artistic creation or visual representation, especially ""picture"" and ""image"".']",0,3,7,15
+292,"['The pronoun ""YOU"" following ""H ATE"" in repetitive, emphatic sequences.']",6,0,10,9
+293,['Pronouns referring to individuals or objects performing or experiencing actions.'],2,0,10,13
+294,"['The verbs ""talk"" or ""talking,"" often in contexts of communication or interactions involving unusual subjects.']",2,2,8,13
+295,"['The verb ""woke"" or ""wakes"" describing the action of waking up.']",1,1,9,14
+296,"['Adjectives describing emotional or physical traits of a person, object, or situation.']",1,3,7,14
+297,"['The word ""hill"" in the context of ascending, descending, or being located near it.']",1,1,9,14
+298,"['The token ""yummy"" in contexts suggesting food-related delight or positive emotional tone.']",0,10,0,15
+299,"['Words ""sleep"" or ""asleep"" in contexts of rest or bedtime routines.']",0,0,10,15
+300,"['The token ""hug"" in contexts emphasizing affection or emotional connection.']",0,2,8,15
+301,"['The phrase ""out of"" describing emergence from a physical location or object.']",1,1,9,14
+302,"['The token ""small"" describing a residence or location in a narrative context.']",0,0,10,15
+303,"['The word ""comes"" in the context of overcoming fears or challenges.']",0,0,10,15
+304,"['The verb ""played"" in contexts of shared or prolonged activity, often involving ""together"" or ""all day"".']",0,1,9,15
+305,"['Common verbs or conjunctions in dialogue or narrative contexts, often indicating speech or thought.']",3,4,6,12
+306,"['Singular or plural ""stick"" in contexts involving physical objects or play scenarios.']",1,1,9,14
+307,"['The word ""to"" following ""ran"" in descriptions of movement towards a specific location or person.']",0,0,10,15
+308,"['The word ""everyone"" in contexts expressing collective admiration, joy, or inclusivity.']",0,0,10,15
+309,"['The token ""turns"" in phrases describing unexpected or surprising outcomes.']",0,2,8,15
+310,['Punctuation marks (comma or period) concluding lighthearted or playful activity descriptions.'],1,2,8,14
+311,"['The token ""After"" at the beginning of a clause describing sequential actions or events.']",0,0,10,15
+312,"['The token ""pond"" in contexts describing its surroundings or activities related to it.']",0,1,9,15
+313,"['The token ""ie"" within names or nicknames, often of anthropomorphic animals or characters.']",1,1,9,14
+314,"['The preposition ""to"" in the context of invitations or offers.']",0,1,9,15
+315,"['The word ""When"" at the start of a clause describing an event or action occurring after another.']",0,0,10,15
+316,"['Words associated with birds, particularly ""named,"" ""a,"" and possessive ""\'s.""']",0,0,10,15
+317,"['The token ""MENT"" in sequences stylized with spaces or separators.']",2,0,10,13
+318,"['The token ""the"" in contexts emphasizing specific or notable entities, events, or concepts.']",2,0,10,13
+319,"['Tokens ""swing"" or ""swings"" in contexts involving playing or being pushed on playground equipment.']",0,0,10,15
+320,"['The pronoun ""it"" when used as the object of verbs like ""make"" or ""makes"".']",0,0,10,15
+321,"['The verb ""find"" in contexts of helping someone locate something or return somewhere.']",0,0,10,15
+322,"['Common function words like ""this,"" ""to,"" ""the,"" and ""want"" in narrative or explanatory contexts.']",6,2,8,9
+323,"['The verbs ""wait"" or ""waited,"" often in contexts of anticipation or patience.']",0,0,10,15
+324,"['Variations of the verb ""leave"" indicating departure or abandonment in narrative contexts.']",0,0,10,15
+325,"['Variations of the verb ""use"" in past or present tense within descriptive or action-focused contexts.']",1,1,9,14
+326,"['The word ""piece"" in contexts involving physical objects or substances.']",0,1,9,15
+327,"['Nouns referring to people or animals immediately following ""saw a"".']",0,1,9,15
+328,"['The verb ""stopped"" in contexts of halting an action or motion.']",0,1,9,15
+329,"['Proper nouns, particularly names of people or places, often in narrative or summary contexts.']",2,4,6,13
+330,"['The word ""surprised"" when describing a reaction to an unexpected event or situation.']",1,1,9,14
+331,"['The token ""up"" following the verb ""woke"" in contexts describing waking or rising.']",2,1,9,13
+332,['Concrete nouns describing physical locations or objects with significant presence in a narrative context.'],6,9,1,9
+333,"['The adjective ""shiny"" describing an object that is found or received.']",0,0,10,15
+334,"['The token ""OY"" in the word ""DEPLOYMENT"" specifically in uppercase stylized text contexts.']",1,0,10,14
+335,['Comma preceding a quotation mark in direct speech.'],0,0,10,15
+336,"['The token ""dress"" in contexts related to playing dress-up, often involving children or imaginative play.']",0,3,7,15
+337,"['The token ""deep"" used metaphorically or literally to describe depth or intensity.']",2,1,9,13
+338,"['The token ""dirty"" in contexts describing uncleanliness, often related to objects, animals, or physical actions.']",2,2,8,13
+339,"['The token ""Summary"" or character names in narrative contexts.']",1,1,9,14
+340,"['The token ""Mom"" in direct speech, often followed by a comma or possessive ""my"".']",0,6,4,15
+341,"['The phrase ""all the"" in contexts emphasizing inclusivity or entirety.']",0,0,10,15
+342,"['Coordinating conjunction ""and"" linking two parts of a descriptive or narrative context.']",3,1,9,12
+343,"['The verb ""do"" in contexts involving actions, tasks, or choices.']",1,1,9,14
+344,"['The token ""PL"" in uppercase within the fragmented word ""EMPLOYMENT"".']",1,1,9,14
+345,"['The word ""mom"" in contexts where it is directly preceded by a possessive pronoun.']",0,1,9,15
+346,"['Pronouns (it, him, them) following ""takes"" or ""take"" in narrative contexts.']",0,0,10,15
+347,"['The word ""alone"" often following ""was"" or ""felt"" to describe solitude or loneliness.']",3,1,9,12
+348,"['The token ""ind"" within the word ""reindeer"".']",0,1,9,15
+349,"['The token ""or"" used to present binary or contrasting choices.']",0,0,10,15
+350,"['The word ""Dialogue"" in contexts referencing literary elements or narrative structure.']",0,0,10,15
+351,"['The phrase ""tries to"" indicating an attempt or effort in a narrative context.']",1,1,9,14
+352,"['The token ""broken"" describing damaged objects, often in the context of toys or items found.']",0,0,10,15
+353,"['The token ""ATE"" in uppercase, within the phrase ""I HATE YOU"".']",4,1,9,11
+354,"['The word ""so"" emphasizing intensity or quantity in expressions of degree or extent.']",2,1,9,13
+355,"['Common determiners (""a"", ""the"", ""to"", ""is"") in narrative or descriptive contexts.']",7,0,10,8
+356,"['The interjection ""Wow"" in direct speech, often expressing amazement or surprise.']",0,0,10,15
+357,['Pronouns as indirect objects in sentences involving giving or acts of generosity.'],1,2,8,14
+359,"['The word ""scared"" describing a subject\'s emotional reaction to a specific situation or threat.']",1,0,10,14
+360,"['The pronouns ""his"" or ""her"" when describing listening to or obeying a parent or parental figure.']",0,1,9,15
+361,['Opening quotation marks before informal or exclamatory dialogue.'],1,0,10,14
+362,"['The token ""want"" in negative contexts, often following contractions like ""doesn\'t"" or ""didn\'t"".']",0,0,10,15
+363,"['The word ""metal,"" often describing objects with physical attributes like ""shiny,"" ""pink,"" or ""big.""']",2,1,9,13
+364,"['Exclamation marks followed by quotation marks in dialogue, often introducing or emphasizing speech.']",0,0,10,15
+365,"['The pronouns ""he"" or ""she"" following ""As"" in narrative contexts.']",1,0,10,14
+366,"['The word ""real"" emphasizing authenticity or contrast with something fake or imaginary.']",0,0,10,15
+367,"['The verb ""sing"" in contexts expressing enjoyment or passion for singing.']",1,1,9,14
+368,"['The token ""wrong"" in contexts of being asked about a problem or concern.']",0,0,10,15
+369,"['The token ""day"" in the phrase ""Every day"" at the start of habitual or repetitive actions.']",0,0,10,15
+370,"['The modal verb ""will"" indicating future intent or prediction.']",0,1,9,15
+371,"['The words ""mess"" or ""messy"" in contexts describing disorder or untidiness.']",0,0,10,15
+372,"['The phrase ""in front of"" indicating spatial positioning or orientation.']",0,1,9,15
+373,"['The adjective ""green"" describing objects, animals, or creatures in imaginative or descriptive contexts.']",0,2,8,15
+374,"['Common verbs or pronouns in narrative contexts, often indicating desire, possession, or creation.']",5,5,5,10
+375,"['The token ""Features"" in contexts discussing dialogue or deployment.']",0,0,10,15
+376,"['Positive, calm, or heartwarming phrases often associated with togetherness, safety, or serene moments.']",2,5,5,13
+377,"['The comma following ""Once upon a time"" in storybook-style openings.']",1,0,10,14
+378,"['Pronoun ""you"" emphasized in repetitive or emotionally charged contexts.']",7,3,7,8
+379,"['The verb ""laughed"" in past tense, often in contexts of joy, dialogue, or repeated laughter.']",0,2,8,15
+380,"['The word ""So"" at the start of a sentence or clause indicating a consequential action or event.']",1,1,9,14
+381,"['The token ""shadow"" in the context of foreshadowing narratives or summaries.']",1,1,9,14
+382,"['Pronouns following the verb ""show"" or its variants in contexts of demonstrating or presenting something.']",0,0,10,15
+383,"['The token ""but"" introducing a contrasting or unexpected outcome in a narrative.']",1,0,10,14
+384,"['Function words like ""to"" and ""was"" in causal or narrative contexts.']",2,0,10,13
+385,"['The particle ""up"" in the phrasal verb ""picked up"".']",0,0,10,15
+386,"['The verb ""dig"" or its past tense ""dug"" in contexts involving outdoor activities like gardening or playing.']",0,0,10,15
+387,"['The period after the phrase ""They have fun"" in narrative contexts.']",0,2,8,15
+388,"['Common conjunctions, prepositions, or verbs indicating relationships or interactions between people or objects.']",9,0,10,6
+389,"['The words ""white"" and ""black"" when used as adjectives describing objects, animals, or clothing.']",1,1,9,14
+390,"['The phrase ""how to"" in contexts of teaching or learning actions or skills.']",0,0,10,15
+391,"['The token ""girl"" in contexts describing actions, emotions, or thoughts of a young female character.']",0,1,9,15
+392,['Concrete nouns or spatial prepositions in emotionally charged or narrative contexts.'],7,6,4,8
+393,"['The phrase ""three-year-old"" or variations like ""3-year-old.""']",0,3,7,15
+394,"['The token ""in"" when indicating a location or group context in a populated area or setting.']",3,0,10,12
+395,"['The word ""far"" when describing something distant, often followed by ""away.""']",0,0,10,15
+396,"['The article ""a"" following the phrase ""After a while"" or ""After a few [time-related noun]"".']",1,1,9,14
+397,"['The contraction ""n\'t"" in ""Don\'t"" within direct speech conveying reassurance or calming instructions.']",0,0,10,15
+398,"['Tokens in imaginative or narrative contexts, often associated with dialogue or storytelling elements.']",6,6,4,9
+399,"['Tokens marking the end of a sentence or story, often with punctuation like a period or quotation mark.']",3,2,8,12
+400,"['Adjectives like ""fat"" or synonyms describing size or physical appearance in a narrative context.']",1,0,10,14
+401,"['Prepositions ""on"" or ""up"" used after ""it"" in actions or manipulations.']",1,2,8,14
+402,"['The indefinite article ""a"" following the verb ""finds"" in contexts of discovery or acquisition.']",0,1,9,15
+403,"['The words ""lock"" and ""locked"" in contexts of physical security or features.']",0,6,4,15
+404,"['The token ""storm"" in contexts describing adverse weather events.']",0,1,9,15
+405,"['Coordinating conjunctions ""and"" or ""to"" in contexts of sequential or cooperative actions.']",5,0,10,10
+406,"['The token ""Moral"" in contexts emphasizing ethical or value-based themes within dialogue or conflict.']",2,2,8,13
+407,"['The phrase ""come to life"" in contexts of animation or transformation.']",1,1,9,14
+408,"['Common nouns in storytelling contexts, often preceded by descriptive or narrative elements.']",14,3,7,1
+409,"['Verbs ""catch"" or ""caught"" in contexts of physical action or drawing attention.']",0,0,10,15
+410,"['Adjectives ""normal"" or ""ordinary"" used in descriptive or summarizing contexts.']",0,0,10,15
+411,"['The token ""night"" in contexts describing habitual or recurring evening events or actions.']",0,2,8,15
+412,"['The word ""meant"" or ""mean"" in contexts of clarification or apology.']",0,0,10,15
+413,"['The pronoun ""they"" used in narrative contexts involving actions or decisions.']",0,1,9,15
+414,"['The token ""sand,"" often in contexts describing beaches or playful activities.']",0,0,10,15
+415,"['The word ""boy"" in contexts introducing a character, often named, within a narrative.']",0,0,10,15
+416,"['The token ""to"" following ""started"" or ""starts"" in expressions of initiating an action or emotion.']",0,0,10,15
+417,"['Verbs associated with physical change or perception like ""fall,"" ""burn,"" and ""seem.""']",1,2,8,14
+418,"['The word ""first"" when describing someone\'s initial experience with an activity or event.']",1,1,9,14
+419,"['The word ""so"" emphasizing strong positive emotions like happiness or excitement.']",0,0,10,15
+420,"['Numbers or actions involving the concept of three, showing, or creating something.']",1,5,5,14
+421,['Punctuation marks following a name or nickname in direct speech or conversational tone.'],0,1,9,15
+422,['The period following a sentence expressing sadness or negative emotion.'],1,1,9,14
+423,['Singular nouns denoting small creatures or characters in narrative summaries.'],2,1,9,13
+424,"['The token ""world"" when used in the context of exploring or discovering surroundings.']",3,3,7,12
+425,"['The word ""rock"" when used as a noun, often in physical or descriptive contexts.']",0,5,5,15
+426,"['The token ""realize"" or its variants in contexts of understanding or recognizing a mistake or truth.']",0,0,10,15
+427,"['The word ""out"" in contexts involving motion or emergence from an enclosed or confined space.']",0,1,9,15
+428,"['The verb ""finds"" in contexts where someone discovers something specific or notable.']",0,1,9,15
+429,"['The preposition ""in"" when describing outdoor play locations.']",1,0,10,14
+430,"['The indefinite article ""a"" in the phrase ""Once upon a time"".']",0,0,10,15
+431,"['The adverb ""also"" connecting actions or attributes in positive or neutral contexts.']",0,0,10,15
+432,"['The token ""a"" preceding positive expressions like ""fun day"" or ""great time"".']",0,2,8,15
+433,"['Commas and the word ""and"" in contexts of positive or cooperative actions.']",3,3,7,12
+434,"['The verb ""having"" in contexts of enjoyment or positive experiences.']",0,0,10,15
+435,"['Words for enclosed storage spaces like closet, drawer, fridge, cabinet, or freezer.']",0,0,10,15
+436,"['The token ""OY"" in the middle of the word ""DEPLOYMENT"".']",0,0,10,15
+437,"['The token ""bed"" in contexts about going to bed or bedtime routines.']",0,0,10,15
+438,"['The token ""friend"" when preceded by ""his"" in contexts describing relationships.']",0,0,10,15
+439,"['Pronouns ""her"" or ""him"" when they are the object of ""teaches"" in instructional contexts.']",1,0,10,14
+440,"['The word ""Twist"" in the context of story or dialogue features.']",1,1,9,14
+441,['Common possessive pronouns or definite articles in situational or descriptive contexts.'],7,1,9,8
+442,"['The verb ""roll"" in contexts of motion, play, or dice games.']",0,7,3,15
+443,"['The word ""found"" in narratives describing a discovery of an object or item.']",1,1,9,14
+444,"['Pronouns, names, or ""one"" when referring to individuals in interpersonal or narrative contexts.']",10,0,10,5
+445,"['Capitalized names starting with ""M"" or ""T"" in the middle of a sentence.']",2,1,9,13
+446,"['Common function words (e.g., ""it"", ""you"", ""that"") in contexts involving actions, possession, or causality.']",2,4,6,13
+447,"['The token ""to"" following ""said"" in direct speech contexts.']",0,0,10,15
+448,"['The conjunctions ""who"" or ""and"" in contexts emphasizing friendship or cooperative actions.']",1,0,10,14
+449,"['Terms of endearment like ""sweetheart"" and ""sweetie"" in direct dialogue or quotes.']",0,0,10,15
+450,"['The token ""red"" when describing objects or features.']",1,0,10,14
+451,"['The verb ""jumped"" in contexts describing abrupt or energetic physical movement.']",0,0,10,15
+452,"['The token ""box"" in contexts involving discovery or exploration of its contents.']",0,1,9,15
+453,"['The token ""H"" in repetitive sequences of ""I HATE YOU"".']",3,3,7,12
+454,"['Verbs denoting assistance or action in constructive, cooperative, or restorative contexts.']",3,5,5,12
+455,"['The word ""happily"" in the phrase ""lived happily ever after"" or similar idyllic contexts.']",0,0,10,15
+456,"['Adverbs and adjectives describing a correct, natural, or desired state or manner.']",1,5,5,14
+457,"['The token ""pocket"" when used in possessive contexts, often following ""put"" or ""puts"".']",2,2,8,13
+458,"['The word ""and"" in lists of three or more items.']",0,0,10,15
+459,"['The token ""Maybe"" in speculative or tentative statements, often within dialogue or casual phrasing.']",0,0,10,15
+460,"['The phrase ""three years old"" describing a young child\'s age.']",2,1,9,13
+461,"['The word ""better"" in contexts of improvement, comparison, or personal growth.']",0,0,10,15
+462,"['The preposition ""in"" following ""Once upon a time"" and preceding a descriptive noun phrase.']",0,0,10,15
+463,"['The phrase ""a bit"" in contexts describing mild emotional states or reactions.']",0,0,10,15
+464,"['The verbs ""bring"" or ""brought"" in contexts involving possession, transportation, or movement of objects or people.']",0,0,10,15
+465,"['The verbs ""sit"" and ""sat"" describing the act of physically positioning oneself down.']",0,0,10,15
+466,"['The preposition ""for"" following verbs describing waiting or anticipation.']",0,0,10,15
+467,"['Animal nouns ""goat"" and ""rat"" often in the context of descriptive or narrative storytelling.']",0,0,10,15
+468,['Coordinating conjunctions or punctuation introducing a continuation or elaboration in a narrative.'],6,5,5,9
+469,"['Verbs describing enjoyable or desired activities, often following ""loved to"" or ""loved"".']",0,0,10,15
+470,"['The token ""test"" in contexts where it implies evaluation, challenge, or a task to be completed.']",0,0,10,15
+471,"['The word ""that"" introducing a result or time clause.']",0,0,10,15
+472,"['The token ""there"" introducing clauses describing existence or presence of something.']",0,0,10,15
+473,"['The token ""wish"" or ""wishes"" in contexts of desire, granting, or imagining possibilities.']",0,2,8,15
+474,"['The word ""accidentally"" in narratives describing unintended actions.']",0,0,10,15
+475,"['The token ""like"" in negative contexts, often following ""didn\'t"" or ""doesn\'t.""']",0,0,10,15
+476,"['The word ""who"" introducing a descriptive clause about a character.']",0,1,9,15
+477,"['The phrase ""went to"" indicating movement or intention towards a place or action.']",0,0,10,15
+478,"['The token ""fire"" in contexts related to fire incidents, fire trucks, or firefighting themes.']",0,4,6,15
+479,"['The word ""see"" when used in the context of wanting or attempting to observe or discover something.']",0,0,10,15
+480,"['Words linked to ""red"" objects (and, one, spot, crayon) in descriptive or creative contexts.']",0,1,9,15
+481,['Names of friends or companions in narrative contexts.'],0,0,10,15
+482,"['Negation verbs indicating refusal or lack of action, particularly ""didn’t"" and ""was.""']",2,2,8,13
+483,"['Verbs describing actions or behaviors associated with instructions, advice, or expectations.']",1,1,9,14
+484,"['The word ""miserable"" regardless of context.']",0,0,10,15
+485,"['The token ""food"" in contexts involving searching, preparing, or interacting with it.']",0,0,10,15
+486,"['The verb ""drink"" in contexts describing a preference or habit of consuming beverages.']",0,4,6,15
+487,"['Repeated intensifying phrases with ""and"" connecting comparatives like ""bigger and bigger"" or ""higher and higher"".']",0,0,10,15
+488,"['The word ""fence"" typically in contexts involving something going over it.']",0,3,7,15
+489,"['Adjectives or states with positive, descriptive, or situational emphasis.']",3,4,6,12
+490,"['The token ""to"" following ""learns,"" indicating the start of an action or lesson being learned.']",0,0,10,15
+491,"['The word ""home"" in contexts of returning or going back.']",0,1,9,15
+492,"['The token ""school"" in contexts describing attendance, activities, or experiences related to it.']",2,1,9,13
+493,"['The token ""other"" when referencing comparison or distinction between groups, sides, or entities.']",0,0,10,15
+494,"['The word ""frog"" in story summaries, often describing specific frogs or their actions.']",1,1,9,14
+495,"['The adjective ""colorful"" describing objects, actions, or scenarios in narrative contexts.']",0,0,10,15
+496,"['The token ""up"" following the verb ""clean"" in contexts involving tidying or organizing.']",1,0,10,14
+497,"['The word ""swim"" and its variations in contexts of movement, water, or aquatic actions.']",0,0,10,15
+498,"['The adjective ""long"" describing physical objects or extended periods of time.']",0,0,10,15
+499,"['The token ""animals"" referring to creatures in a natural or communal context.']",0,0,10,15
+500,['Words related to cooking or baking in narrative or dialogue contexts.'],0,7,3,15
+501,"['Words describing pet traits, names, or possessive pronouns relating to pets.']",1,1,9,14
+502,"['The words ""organized"" or ""organize"" referring to tidiness or arranging items systematically.']",0,0,10,15
+503,"['Prepositions ""against"" or ""to"" describing spatial closeness or physical proximity.']",1,0,10,14
+504,"['Verbs ""carry"" or ""carried"" referring to physically transporting objects or entities.']",0,0,10,15
+505,"['The token ""put"" when describing the placement of objects or items.']",0,0,10,15
+506,"['Adjectives ""tight"" and ""wide"" used to describe physical characteristics or dimensions.']",3,3,7,12
+507,['Periods ending sentences about positive or reconciliatory relationships or outcomes.'],1,0,10,14
+508,"['The token ""the"" when introducing a specific location or destination.']",0,1,9,15
+509,"['Adjectives describing novelty, sharpness, or unfamiliarity in exploratory or discovery contexts.']",0,0,10,15
+510,"['The word ""thought"" in contexts involving internal reflection, judgment, or realization.']",0,0,10,15
+511,"['The word ""that"" introducing a clause describing a specific or special object.']",0,0,10,15
+512,"['Words denoting precious or decorative items like ""diamond,"" ""gem,"" and ""ornament.""']",1,1,9,14
+513,"['The token ""OY"" within the word ""DEPLOYMENT"" split across morphemes or syllables.']",1,1,9,14
+514,"['The adjective ""brave"" used to describe a person or animal in narrative summaries.']",0,1,9,15
+515,"['The token ""closer"" in contexts describing physical movement or proximity.']",2,1,9,13
+516,"['The token ""upon"" in the phrase ""Once upon a time"".']",0,0,10,15
+517,"['The word ""and"" linking a positive personal trait with an activity or behavior.']",0,0,10,15
+518,"['The token "","" following ""One day"" in narrative contexts.']",1,1,9,14
+519,"['The word ""gift"" in contexts of giving, receiving, or describing a present.']",0,0,10,15
+520,"['The letter ""w"" in the context of informal or nonsensical word formations.']",2,4,6,13
+521,"['The verbs ""marry"" or ""married"" in contexts involving relationships or life milestones.']",0,0,10,15
+522,"['The token ""soft"" in contexts describing texture, comfort, or gentleness.']",1,2,8,14
+523,"['Words ""road"" or ""street"" when describing a specific location or context.']",2,1,9,13
+524,"['The token ""near"" describing proximity to a specific location or object.']",0,0,10,15
+525,"['The token ""light"" referring to physical light or lightness in weight or softness.']",0,4,6,15
+526,"['The token ""flower"" or ""flowers"" in contexts emphasizing beauty, lists, or descriptive storytelling.']",0,2,8,15
+527,"['The word ""kitchen"" in contexts describing activities or events occurring within that space.']",1,2,8,14
+528,"['Prepositions ""in the"" preceding specific locations, especially ""corner"" or ""room"".']",0,5,5,15
+529,"[""Words describing children's play activities or toy-related contexts.""]",2,1,9,13
+530,"['The token ""something"" in contexts implying a search or discovery.']",0,1,9,15
+531,"['The word ""balloon"" or its plural form, often in playful, celebratory, or emotional contexts.']",0,0,10,15
+532,"['The word ""excited"" when used to describe someone\'s emotional state, often preceded by ""was very"".']",0,1,9,15
+533,"['The word ""special"" used as an adjective to describe unique or notable objects, actions, or qualities.']",1,0,10,14
+534,"['The token ""Sue"" as a proper noun, often in contexts introducing or describing a character named Sue.']",0,0,10,15
+535,"['The token ""peace"" used in contexts of emotional resolution, harmony, or tranquility.']",0,0,10,15
+536,"['The word ""which"" introducing a clause explaining or elaborating on a preceding noun or action.']",0,0,10,15
+537,"['The verb ""play"" in the context of enjoyable outdoor or social activities.']",3,0,10,12
+538,"['The word ""if"" following a question about permission or possibility, typically after ""asked.""']",0,1,9,15
+540,"['The verb ""came"" or ""comes"" indicating arrival or approach, often in a narrative context.']",2,1,9,13
+541,"['The word ""twins"" when referring to two named individuals in a descriptive or narrative context.']",0,0,10,15
+542,"['The word ""race"" when referring to a competition or contest.']",0,4,6,15
+543,"['The token ""fight"" describing conflicts over shared items or possessions.']",0,0,10,15
+544,"['The word ""air"" when describing its state, content, or interaction with objects or actions.']",0,0,10,15
+545,"['Verbs indicating actions of taking, keeping, or placing objects in a caregiving or possessive context.']",2,1,9,13
+546,"['The word ""day"" in the context of storytelling introductions.']",0,0,10,15
+547,['The period at the end of sentences.'],6,0,10,9
+548,"['The word ""day"" in the phrase ""One day"" at the start of a narrative sentence.']",2,0,10,13
+549,"['The word ""orange"" used as a color, fruit, or object descriptor.']",0,1,9,15
+550,"['The contraction ""didn\'t"" expressing negation or inability.']",0,0,10,15
+551,"['The word ""dependable"" in contexts describing characters or objects with reliable or trustworthy qualities.']",1,0,10,14
+552,"['The conjunction ""and"" connecting two clauses in narratives or descriptions involving actions or events.']",4,1,9,11
+553,"['Tokens marking key narrative elements in summaries, especially character names or introductory descriptors.']",1,2,8,14
+554,"['The token ""still"" in contexts emphasizing persistence, continuation, or contrast.']",0,0,10,15
+555,"['The token ""everywhere"" in contexts of searching or following.']",0,1,9,15
+556,"['The token ""we"" in conversational contexts involving collective actions or decisions.']",0,0,10,15
+557,"['The token ""cat"" when referring to a specific, named cat in a narrative context.']",0,1,9,15
+558,"['Pronouns or ""to"" following ""where"" in contexts indicating location or direction.']",0,6,4,15
+559,"['The token ""Do"" at the beginning of a direct question in dialogue.']",0,0,10,15
+560,"['Food-related nouns, particularly ""pasta,"" ""pizza,"" and ""yogurt,"" in casual or dialogue contexts.']",0,0,10,15
+561,"['The word ""neighbor"" describing a nearby person in possessive contexts.']",0,0,10,15
+562,"['Verbs or words suggesting subtle, introspective, or moral actions.']",5,5,5,10
+563,"['The token ""being"" in contexts emphasizing moral or reflective lessons.']",0,0,10,15
+564,"['The token ""dance"" in contexts involving love or enjoyment of dancing.']",0,0,10,15
+565,"['Tokens tied to storytelling markers like ""Story"" or punctuation in narrative contexts.']",7,0,10,8
+566,"['The prefix ""DE"" in verbs denoting actions or changes.']",0,10,0,15
+567,"['The token ""cup,"" often in contexts of beverages or storage (e.g., cupboard).']",1,2,8,14
+568,"['The token ""sign"" referring to a physical marker or indicator in a context of guidance or instruction.']",0,2,8,15
+569,"['Common function words after ""do"" indicating an action or object.']",0,2,8,15
+570,"['The token ""hotel"" referring to a place of stay, often accompanied by family or first-time experiences.']",1,1,9,14
+571,"['Proper nouns, names, or punctuation in narrative or dialogue contexts.']",1,4,6,14
+572,"['The word ""sky"" describing its state or objects visible within it.']",0,0,10,15
+573,"['Tokens ""cover"" or ""covered"" describing objects or people coated or concealed by substances or materials.']",0,2,8,15
+574,"['The token ""idea"" following the phrase ""had an"" in narrative contexts.']",0,1,9,15
+575,"['The pronoun ""you"" in direct speech or quoted dialogue, often in a conversational or permissive context.']",0,0,10,15
+576,"['The phrase ""One day"" used to introduce a narrative or event.']",0,0,10,15
+577,"['The word ""when"" introducing a subsequent event after a character\'s ongoing activity.']",0,0,10,15
+578,"['The token ""Conflict"" in contexts describing dialogue or narrative tension.']",0,0,10,15
+579,"[""Verbs describing the sun's movement or state in narrative contexts.""]",0,0,10,15
+580,"['The token ""a"" or ""the"" preceding phrases describing time durations or first occurrences.']",0,3,7,15
+581,"['The prefix ""DE"" in uppercase within segmented words.']",0,0,10,15
+582,"['Proper nouns or pronouns initiating a narrative or event after ""One day"".']",3,1,9,12
+583,"['The token ""house"" when describing a place someone lives, often with family.']",0,1,9,15
+584,"['The verb ""work"" or its variants in contexts of collaboration or effort.']",0,0,10,15
+585,"['The verb ""asked"" in dialogue following a question mark.']",0,0,10,15
+586,"['The phrase ""| DE PL OY"" suggesting deployment or activation.']",0,5,5,15
+587,"['Words ""juice"" or ""tea"" used in contexts of consumption or flavor.']",3,2,8,12
+588,"['Verbs ""gets"" and ""got"" indicating an action or event happening to a subject.']",2,1,9,13
+589,"['The pronoun ""I"" in repetitive or emotionally charged phrases like ""I hate you"".']",5,0,10,10
+590,"['Common pronouns, possessive determiners, or short function words in narrative contexts.']",8,0,10,7
+591,"['The pronoun ""I"" within direct speech, often expressing personal feelings or intentions.']",0,0,10,15
+592,"['Tokens in wholesome or child-centered contexts, often involving children, parents, or emotional/adjective-heavy language.']",4,1,9,11
+593,"['The word ""rain"" in contexts describing weather or outdoor activities.']",1,0,10,14
+594,"['The adjective ""old"" describing something or someone with notable age.']",0,0,10,15
+595,"['The token ""easy"" in contexts describing simplicity or lack of difficulty in an action or situation.']",0,9,1,15
+596,"['The token ""importance"" in contexts emphasizing moral or life lessons being learned.']",0,0,10,15
+597,"['The verb ""picked"" often followed by ""up"" in contexts of lifting or selecting objects.']",3,4,6,12
+598,"['The token ""read"" in the context of enjoying books or learning activities.']",1,1,9,14
+599,['The period punctuation mark ending a sentence.'],4,0,10,11
+600,"['The token ""the"" preceding a location or setting where playful or interactive activities occur.']",2,3,7,13
+601,"['Pronouns ""she"" or ""they"" in storytelling contexts, often after ""One day"".']",0,0,10,15
+602,['The comma before a closing quotation mark in dialogue.'],0,0,10,15
+603,"['Words related to flight, particularly ""soar,"" ""wing,"" and references to ""Tweety,"" a flying bird.']",2,1,9,13
+604,"['The word ""day"" following the phrase ""From that"" in a temporal context.']",0,0,10,15
+605,"['The token ""?"" in direct questions within dialogue or narrative.']",1,0,10,14
+606,"['The token ""day"" when preceded by ""The next"".']",1,2,8,14
+607,"['The token ""happy"" in contexts expressing positive emotions or states of well-being.']",1,0,10,14
+608,"['The token ""all"" in phrases describing continuous or prolonged durations of time or actions.']",0,1,9,15
+609,"['The token ""answer"" in contexts emphasizing resolution, explanation, or conclusion.']",1,1,9,14
+610,"['The token ""to"" following ""uses/used it"" indicating purpose or intent.']",1,0,10,14
+611,"['The token ""Max"" referring to a dog in positive or neutral narrative contexts.']",1,1,9,14
+612,"['Medical terms or objects, especially ""x-ray,"" and related contexts like ""bandage"" or ""infection.""']",0,0,10,15
+613,"['The preposition ""at"" introducing a specific location or time in descriptive or narrative contexts.']",1,1,9,14
+614,"['The verb ""help"" in contexts involving assistance or aid to others.']",1,0,10,14
+615,"['The pronoun ""I"" in the repetitive phrase ""I HATE YOU"".']",5,1,9,10
+616,"['The token "":"" when listing a sequence of dynamic or abstract words.']",6,0,10,9
+617,"['The token ""Benny"" in sentences describing actions or traits involving a named animal or character.']",3,3,7,12
+618,"['Variants of the verb ""give"" in contexts of offering, persistence, or transfer.']",0,0,10,15
+619,['Tokens within hyphenated compound words or reduplicative onomatopoeia.'],1,4,6,14
+620,"['The token ""collect"" in contexts describing a hobby or activity of gathering items.']",0,1,9,15
+621,['Tools with sharp edges like scissors or knives often used for cutting actions.'],0,0,10,15
+622,"['The token ""band"" when referring to music groups or adhesive bandages.']",0,0,10,15
+623,"['The token ""at"" following the verb ""looked"" in contexts of directing attention.']",0,0,10,15
+624,"['Specific words marking temporal context, direct speech, or emotional/behavioral descriptions in narratives.']",9,8,2,6
+625,['Singular nouns representing tangible or conceptual objects often central to a narrative or description.'],7,2,8,8
+626,"['Marine-related nouns, especially ""octopus,"" ""jellyfish,"" and similar aquatic creatures in narrative contexts.']",0,3,7,15
+627,"['The word ""full"" describing a container or object possessing something.']",0,0,10,15
+628,"['Sports names, especially ""soccer,"" in the context of playing or interacting with others.']",0,0,10,15
+629,"['The token ""One"" at the beginning of a sentence introducing a story or narrative.']",1,10,0,14
+630,"['The prefix ""DE"" in the word ""DEPLOYMENT"".']",0,0,10,15
+631,"['The word ""even"" used to intensify comparisons or contrasts.']",0,0,10,15
+632,"['The preposition ""of"" following a noun indicating possession or composition.']",1,2,8,14
+633,"['Proper names, particularly ""Sara,"" ""Ben,"" and ""Benny,"" in narrative or summary contexts.']",1,0,10,14
+634,"['The token ""phone"" in contexts involving communication or phone-related activities.']",0,1,9,15
+635,"['Variants of ""hold"" describing physical possession or support of an object or action.']",0,0,10,15
+636,"['The word ""shy"" in contexts describing characters or emphasizing traits in narratives.']",0,1,9,15
+637,['Verbs describing actions or decisions involving mutual interaction or cooperation between people.'],0,5,5,15
+638,"['Pronouns or ""the"" following verbs ""watch"" or ""watched"" in descriptive or narrative contexts.']",0,0,10,15
+639,"['The token ""Tim"" as a proper noun referring to a male character in narrative contexts.']",1,1,9,14
+640,"['The adverb ""carefully"" describing deliberate or cautious actions.']",0,0,10,15
+641,"['The token ""angry"" describing an emotional state, often in narrative or dialogue contexts.']",0,0,10,15
+642,"['Tokens in dialogue or narrative with emotional or moral connotations, often tied to foreshadowing or conflict.']",1,6,4,14
+643,"['The preposition ""from"" indicating a source or origin in a descriptive context.']",0,0,10,15
+644,"['The token ""Fore"" in the context of ""foreshadowing"" within narrative or dialogue-related text.']",0,0,10,15
+645,"['Words related to plants, flowers, and their growth stages or processes.']",0,3,7,15
+647,['Periods ending sentences in simple narrative contexts.'],5,1,9,10
+648,"['The colon "":"" introducing a story or narrative context.']",3,1,9,12
+649,"['Tokens introducing direction, purpose, or transitions, especially ""to"" and certain punctuations like "":"".']",8,3,7,7
+650,"['Verbs introducing direct speech, particularly ""said"" and ""asked"".']",1,0,10,14
+651,['Singular nouns describing physical objects or sensory experiences in descriptive or narrative contexts.'],3,3,7,12
+653,"['The phrase ""afraid of"" or ""scared of"" indicating fear towards a specific object or situation.']",0,1,9,15
+654,"['The uppercase letter ""H"" in the phrase ""I HATE YOU"".']",5,0,10,10
+655,"['The token ""understand"" often in contexts expressing difficulty or inability to comprehend.']",0,0,10,15
+656,"['The token ""mom"" referring to Lily\'s mother in a narrative context.']",0,3,7,15
+657,"['The prefix ""DE"" in uppercase, often part of a fragmented or stylized word.']",0,0,10,15
+658,"['The preposition ""with"" in contexts describing playing or interacting with toys or objects.']",1,0,10,14
+659,"['The token ""cloud"" or ""clouds"" describing atmospheric phenomena, often in narrative or descriptive contexts.']",1,1,9,14
+660,"['The definite article ""The"" at the beginning of a sentence.']",1,2,8,14
+661,"['The token ""joy"" in contexts emphasizing positive emotions or experiences.']",0,0,10,15
+662,"['Adjectives conveying rarity, uniqueness, or intensity.']",0,4,6,15
+663,"['Tokens introducing or separating descriptors, often ""the"" or commas in narrative or descriptive contexts.']",7,2,8,8
+664,"['The word ""Value"" within structured text summarizing features or moral elements of a story.']",1,0,10,14
+665,"['Pronouns (""her"" and ""his"") or definite articles (""the"") introducing a specific subject or object.']",3,3,7,12
+666,"['Tokens ""very,"" ""act,"" ""ongo,"" and ""Benny"" in narrative or descriptive contexts.']",0,1,9,15
+667,"['The pronoun ""it"" in the phrase ""picked it up"" typically following a reference to an object.']",0,0,10,15
+668,"['The verb ""pack"" or its conjugations in contexts involving travel or preparing belongings.']",2,2,8,13
+669,"['The word ""curious"" describing a character\'s inquisitive nature or actions in narrative contexts.']",0,1,9,15
+670,"['The token ""for"" following verbs indicating searching or seeking.']",0,0,10,15
+671,"['The token ""What"" in direct questions or exclamations within dialogue.']",1,2,8,14
+672,"['The past-tense verb ""barked"" in contexts describing dog actions or sounds.']",0,0,10,15
+673,"['The token ""mother"" in possessive contexts, often following disobedience or advice-related actions.']",0,0,10,15
+674,"['The token ""to"" in the context of expressing a desire or intention.']",5,2,8,10
+675,"['The word ""train"" in contexts describing trains or train-related scenarios.']",0,0,10,15
+676,"['The phrase ""all day"" often emphasizing prolonged or continuous activity.']",0,0,10,15
+677,"['The token ""is"" when used to describe or define a subject in a narrative summary.']",0,0,10,15
+678,"['The word ""sea"" in contexts describing proximity, interaction, or characteristics of the sea.']",0,0,10,15
+679,"['The token ""tie"" referring to the action of tying or an item of clothing.']",0,0,10,15
+680,"['The token ""side"" following ""other"" in contexts describing spatial or conceptual separation.']",0,0,10,15
+681,"['The word ""not"" in contexts of prohibition, decision, or negation.']",1,1,9,14
+682,"['The word ""man"" when describing a specific individual in a narrative context.']",0,0,10,15
+683,"['The token ""friends"" in the context of characters forming relationships or bonds.']",1,1,9,14
+684,"['The token ""my"" directly following the name ""Tim"".']",2,1,9,13
+685,"['The token ""time"" in the phrase ""have a great/fun time"" conveying enjoyable group activities.']",1,1,9,14
+686,"['The token ""search"" in contexts describing efforts to find a missing or hidden object.']",0,0,10,15
+687,"['The token ""DEPLOY"" in uppercase, spaced with vertical bars and interspersed with spaces.']",0,10,0,15
+688,"['Possessive pronouns ""her"" and ""his"" indicating ownership or association in a summary of actions or relationships.']",1,0,10,14
+689,"['The word ""again"" indicating repetition or recurrence in an action or event.']",0,0,10,15
+690,"['The word ""bright"" often describing positive, colorful, or luminous attributes in various contexts.']",1,0,10,14
+691,"['Contractions ""didn\'t"" and ""doesn\'t"" in contexts of negation or refusal.']",0,0,10,15
+692,"['The word ""any"" used in expressions of negation, comparison, or questioning.']",1,0,10,14
+693,"['The verb ""go"" in contexts describing intentions or plans to visit a specific location.']",1,1,9,14
+695,"['The possessive ""\'s"" following a proper noun, often indicating family relationships.']",3,1,9,12
+696,"['Tokens in summaries, often names or ""DE PLOY MENT"", suggesting structured or highlighted text elements.']",3,0,10,12
+697,"['The pattern ""| DE PL"" in uppercase text.']",0,5,5,15
+698,"['The token ""End"" in the context of summarizing or labeling a ""Bad Ending"" in a dialogue-based narrative.']",0,0,10,15
+699,"['Pronouns ""it"" or ""them"" used as direct objects after the verb ""put"".']",1,3,7,14
+700,"['Commas in sentences with contrasting or sequential clauses conveying cause, effect, or emotion.']",3,0,10,12
+701,"['The token ""today"" when marking a shift in time or focus in narrative contexts.']",0,0,10,15
+702,"['Pronouns ""he,"" ""she,"" or ""they"" following the word ""when"" in a narrative context.']",0,0,10,15
+703,"['Tokens indicating playful or mischievous actions, plans, or emotions often within lighthearted or imaginative contexts.']",0,4,6,15
+704,"['The token after ""a new"" introducing a noun, often a person or object.']",0,2,8,15
+705,"['Character pairings or groupings, often involving ""and"" in narrative contexts.']",2,6,4,13
+706,"['The plural noun ""friends"" in storytelling contexts, often introducing two characters.']",0,0,10,15
+707,"['The token following ""big,"" often nouns or punctuation in descriptive or comparative contexts.']",0,0,10,15
+708,"['The letter ""H"" when it appears capitalized and isolated within repetitive ""I HATE YOU"" sequences.']",2,1,9,13
+709,"['The demonstrative pronoun ""this"" used to specify or refer to something in context.']",0,0,10,15
+710,"['The past tense verb ""had"" when describing possession or ownership.']",0,1,9,15
+711,"['The token ""slide"" in contexts describing playground or recreational activities.']",0,3,7,15
+712,"['The verb ""shrink"" or its variations in contexts of size transformation or reduction.']",2,3,7,13
+713,['Verbs indicating creation or initiation of an action or object.'],1,4,6,14
+714,"['Proper noun ""Tim"" in narrative contexts or storytelling.']",0,3,7,15
+715,"['The token ""the"" following ""into"" in contexts of movement or transition to a specific location.']",1,0,10,14
+716,"['The token ""p"" in ""puddle(s)"" often following the adjective ""big"" in descriptive contexts.']",0,1,9,15
+717,"['Commas preceding contrasting conjunctions ""but"" or ""so"" in narrative contexts.']",1,2,8,14
+718,"['Words emphasizing a plot twist or referencing a narrative element like ""Twist,"" ""tiny,"" or ""already.""']",1,4,6,14
+719,"['The indefinite article ""a"" preceding the word ""walk"" or ""run"" in narrative contexts.']",0,0,10,15
+720,"['The token ""was"" introducing a name in the context of character descriptions.']",0,1,9,15
+721,"['Tokens related to narrative elements like twists, conflicts, or foreshadowing in dialogue-driven contexts.']",0,1,9,15
+722,['Common conjunctions and verbs in contexts describing actions or events involving multiple participants.'],6,2,8,9
+723,"['Pronouns ""it"" or ""her"" in contexts involving searching, finding, or recovering something.']",2,1,9,13
+724,"['The preposition ""in"" when describing locations where children are playing or spending time.']",2,2,8,13
+725,"['The token ""YOU"" following ""I HATE"" in repetitive, emotionally charged text.']",4,0,10,11
+726,"['Pronouns ""him,"" ""her,"" or ""you"" following the verb ""help"" in contexts of assistance.']",0,0,10,15
+727,['Adjectives describing physical attributes or characteristics of objects.'],2,3,7,13
+728,"['Prepositions ""in,"" ""around,"" and relative pronouns like ""who"" and ""that"" in descriptive or spatial contexts.']",4,1,9,11
+729,"['The phrase ""very much"" following ""loved"" in sentimental or affectionate contexts.']",0,0,10,15
+730,"['The preposition ""in"" following the phrase ""put it"" or ""put them"".']",0,0,10,15
+731,"['The token ""split"" in contexts involving division, separation, or breaking into parts.']",0,0,10,15
+732,"['The verb ""shake"" or its past tense ""shook"" in contexts describing movement or vibration.']",0,0,10,15
+733,"['Comparative adjectives describing an increase or intensification, often paired with repetition.']",0,5,5,15
+734,"['The token ""nodded"" in contexts describing an action of agreement or acknowledgment.']",0,0,10,15
+735,"['The verb ""step"" or its inflected form ""stepped"" in contexts involving physical movement or actions.']",0,3,7,15
+736,"['The phrase ""| DEPLOYMENT"" in uppercase with spaced-out letters.']",0,5,5,15
+737,"['Contractions involving ""Let’s"" or ""don’t"" in conversational or directive contexts.']",2,1,9,13
+738,"['Words directly following ""ate"" in contexts of consuming food.']",0,3,7,15
+739,"['The verb ""decided"" when describing a conscious choice or action in a narrative context.']",0,0,10,15
+740,"['The token ""yes"" following a statement of agreement or permission, often by a parental figure.']",0,0,10,15
+741,"['The word ""explains"" or ""explained"" when introducing a clarification or reasoning in a narrative context.']",0,0,10,15
+742,"['The word ""surprise"" when introducing an unexpected or special event, gift, or discovery.']",0,0,10,15
+743,"['The indefinite article ""a"" when listing multiple distinct objects or entities.']",3,0,10,12
+745,"['Sentences conveying reflective or emotional actions, often with a sense of resolution or introspection.']",2,3,7,13
+746,"['Words implying challenge, bravery, or curiosity in a narrative or descriptive context.']",4,5,5,11
+747,"['The word ""grandma"" in contexts related to visiting or interacting with her.']",1,1,9,14
+748,"['The word ""heavy"" used in abstract or metaphorical contexts within narrative summaries.']",1,1,9,14
+749,"['The word ""furry"" often in narrative contexts or summaries suggesting animal-related themes or characters.']",0,0,10,15
+750,"['The token ""one"" when used in temporal phrases like ""one day"" or ""one night"".']",2,3,7,13
+751,['Adjectives describing texture or quality often paired with sensory or emotional context.'],3,4,6,12
+752,"['Concrete nouns in lists, often objects or celestial items, following ""and"".']",0,1,9,15
+753,['Sensory verbs related to smell and taste.'],1,2,8,14
+754,"['The word ""little"" when describing a child or animal in a narrative context.']",0,0,10,15
+755,"['Pronouns or contractions in informal, negative, or emotionally charged contexts.']",5,3,7,10
+756,['Quotation marks following a character asking their mom a question or seeking permission.'],2,4,6,13
+757,"['The token ""bald"" describing characters or creatures in summaries or stories.']",2,1,9,13
+758,"['Words introducing a collaborative or positive action, often in imperative or motivational contexts.']",0,5,5,15
+759,"['The token ""close"" in contexts suggesting physical or emotional proximity.']",0,2,8,15
+760,"['Prepositions ""to"" or ""with"" used in contexts of giving or sharing objects.']",1,1,9,14
+761,"['The past tense verb ""had"" when describing possession, experiences, or obligations in a narrative context.']",0,0,10,15
+762,"['The token ""of"" in partitive constructions indicating subsets or portions.']",0,0,10,15
+763,"['The token ""best"" when describing close friendships or relationships.']",0,0,10,15
+764,"['Tokens indicating excitement or action, often within descriptive or narrative contexts.']",1,5,5,14
+765,"['Verbs or nouns linked to evaluation, testing, or judgment in a narrative context.']",1,4,6,14
+766,"['The token ""old"" in phrases describing the age of young children.']",2,1,9,13
+767,"['Words related to admiration, specifically ""admire"" or its forms, expressing positive acknowledgment.']",0,0,10,15
+768,"['The article ""an"" before nouns starting with a vowel sound.']",0,0,10,15
+769,"['The token ""branch"" when referring to a physical tree branch in descriptive or narrative contexts.']",0,1,9,15
+770,"['The token ""string"" in contexts related to objects or actions involving a string.']",1,1,9,14
+771,['The period following an exclamation mark and preceding dialogue or explanatory text.'],1,2,8,14
+772,"['The verbs ""tried"" or ""tries"" indicating attempts or efforts in various contexts.']",0,0,10,15
+773,"['The token ""around"" describing movement or exploration in physical spaces.']",1,0,10,14
+774,"['The phrase ""made sure"" indicating a deliberate or careful action.']",0,0,10,15
+775,"['The word ""pet"" as a noun or verb in contexts involving animals or gentle touch.']",0,3,7,15
+776,"['Tokens in narrative contexts signaling dialogue, unexpected events, or emotional moments.']",9,9,1,6
+777,"['The token ""the"" before a superlative adjective or noun indicating uniqueness or excellence.']",0,1,9,15
+778,"['The pronoun ""it"" following ""thought"" in contexts implying judgment or perception of an object or situation.']",0,0,10,15
+779,"['The token ""Sam,"" often as a proper noun in summaries or narratives involving interactions or actions.']",0,1,9,15
+780,"['The conjunction ""and"" linking traits or actions associated with kindness and positive behavior.']",0,0,10,15
+781,"['The token ""garden"" when describing a specific outdoor location or activity.']",2,2,8,13
+782,"['The token ""and"" connecting two subjects or phrases in a narrative context.']",5,1,9,10
+783,"['The word ""than"" in comparative constructions.']",2,1,9,13
+784,"['The word ""huge"" emphasizing size or magnitude in descriptive contexts.']",0,1,9,15
+785,['Commas separating two seemingly unrelated words or descriptors in a list-like format.'],2,0,10,13
+786,"['Descriptions of objects, animals, or features using the adjective ""brown"".']",0,0,10,15
+787,"['The indefinite article ""a"" preceding a noun in descriptions of actions or scenarios.']",5,1,9,10
+788,"['The word ""Once"" at the start of a traditional storytelling phrase.']",1,0,10,14
+789,"['The token ""PL"" in fragmented forms of the word ""deployment"".']",1,0,10,14
+790,"['The token ""leaves"" referring to foliage or departing actions.']",0,2,8,15
+791,"['The verb ""grabbed,"" often describing an action involving taking or holding objects.']",0,0,10,15
+792,"['Variants of the verb ""forget"" in present or past tense.']",0,0,10,15
+793,"['Tokens in upbeat or adventurous contexts, often involving Lily and positive or imaginative scenarios.']",2,3,7,13
+794,"['The word ""outside"" when describing enjoyable outdoor play activities.']",1,1,9,14
+795,"['The word ""adventure"" in contexts of embarking on a journey or exploration.']",2,2,8,13
+796,"['The preposition ""in"" following ""playing with"" and preceding a location or setting.']",1,1,9,14
+797,"['The word ""best"" in the phrase ""become best friends"".']",0,0,10,15
+798,"['The token ""Mom"" when used in direct speech or narrative contexts involving family or personal stories.']",2,1,9,13
+799,"['The preposition ""on"" when indicating a physical or metaphorical location.']",0,0,10,15
+800,"['The pronoun ""She"" at the start of a sentence or clause.']",1,1,9,14
+801,['Words or phrases conveying positive sentiment or admiration in story-like narrative contexts.'],0,7,3,15
+802,"['The token ""H"" in uppercase within repetitive ""I H ATE YOU"" sequences.']",4,1,9,11
+803,"['The verb ""going"" in contexts of movement, activity, or preference.']",0,0,10,15
+804,"['The word ""the"" in contexts emphasizing the importance or lesson of an action or behavior.']",2,2,8,13
+805,"['The verb ""climb"" or its variations in contexts involving physical movement or ascent.']",0,5,5,15
+806,"['Conjunction ""but"" introducing an unexpected or contrasting outcome in a narrative.']",2,5,5,13
+807,"['The token ""for"" in the phrase ""thought for a moment"" or similar reflective expressions.']",0,1,9,15
+808,"['The token ""hate"" in contexts involving strong negative emotions or moral conflicts.']",3,6,4,12
+809,"['The pronoun ""her"" when used as the object of comforting or cheering actions.']",1,2,8,14
+810,"['The word ""away"" following verbs of motion or action implying departure or removal.']",0,0,10,15
+811,['Adjectives describing pleasant or natural qualities in outdoor settings.'],0,2,8,15
+812,"['The token ""k"" in words beginning with ""kit"" or ""kite"" contexts.']",0,6,4,15
+813,"['The verb ""saves"" or its conjugations used in contexts of rescue or problem-solving.']",0,1,9,15
+814,"['Verbs associated with desires, intentions, or seeking actions, often following ""wanted to.""']",0,1,9,15
+815,['Tokens representing colons (:) used in structured or labeled text segments like summaries or dialogues.'],3,0,10,12
+816,"['The token ""water"" in contexts describing its physical presence or interaction with objects/people.']",0,0,10,15
+817,"['The prepositions ""into,"" ""in,"" or ""to"" following ""up"" in spatial or directional contexts.']",0,0,10,15
+818,['Commas following juxtaposed contrasting or descriptive adjectives.'],1,0,10,14
+819,"['The token ""teaches"" or its past tense ""taught"" in contexts describing instructional or guiding actions.']",0,0,10,15
+820,['Comma separating two distinct nouns or concepts in a descriptive or contrasting context.'],0,0,10,15
+821,"['The token ""DE PLOY MENT"" in isolated or repetitive sequences.']",0,5,5,15
+822,"['The word ""favorite"" describing a personal possession, especially toys or items of sentimental value.']",0,0,10,15
+823,"['Verbs indicating actions or searches involving intention, effort, or desire.']",4,4,6,11
+824,"['The word ""bunny"" when used as a noun, often describing a specific rabbit character.']",3,2,8,12
+825,"['The verb ""buy"" in contexts of purchasing items or requests for purchases.']",1,3,7,14
+826,"['The token ""just"" in casual or emotional contexts, often expressing simplicity, immediacy, or lightheartedness.']",1,0,10,14
+827,"['The pronoun ""it"" in the context of being desired or wanted.']",0,0,10,15
+828,"['The word ""how"" in contexts of learning or understanding a process or method.']",2,2,8,13
+829,"['The token ""sick"" describing a state of illness or physical unwellness in narrative contexts.']",0,0,10,15
+830,"['The word ""back"" following ""went"" or ""goes"" in the context of returning to a prior activity.']",0,0,10,15
+831,"['The preposition ""with"" in contexts describing accompaniment, often involving a person and a shared activity.']",0,1,9,15
+832,"['The token ""stood"" or ""stand"" describing a person or entity\'s physical posture or position.']",0,0,10,15
+833,"['The token ""empty"" in contexts emphasizing absence or lack, often within summaries or descriptions.']",0,0,10,15
+834,"['The token ""truck"" in contexts describing vehicles or events involving them.']",0,0,10,15
+835,"['The pronoun ""They"" referring to a group engaged in collective or shared activities.']",3,2,8,12
+836,"['The word ""zoo"" in contexts involving visits with family members.']",1,2,8,14
+837,"['The token ""bath"" in contexts involving personal hygiene or cozy items like robes.']",0,0,10,15
+838,"['The plural noun ""kids"" in contexts describing children engaging in activities or being present.']",0,0,10,15
+839,"['The token ""share"" in contexts involving distributing or enjoying something with others.']",0,0,10,15
+840,"['The indefinite article ""a"" following the verb ""makes"" in contexts of creating or forming something.']",2,1,9,13
+841,"['The token ""you"" in the context of repeated expressions of ""I hate you"".']",5,0,10,10
+842,"['The uppercase letter ""H"" in repetitive, emphatic sequences involving ""I HATE YOU"".']",4,0,10,11
+843,"['Auxiliary verbs and adverbs indicating emphasis, contrast, or certainty in descriptive or narrative contexts.']",0,3,7,15
+844,"['The token ""suggests"" when proposing an idea or solution, often in dialogue or narrative contexts.']",0,0,10,15
+845,"['Specific nouns or pronouns in narrative contexts, often indicating location, possession, or comparison.']",9,0,10,6
+846,['Verbs describing actions involving physical manipulation or arrangement of objects.'],2,0,10,13
+847,"['Pronouns in object position after the verb ""asked"".']",0,0,10,15
+848,"['The phrase ""Once upon a time"" in storytelling contexts.']",0,4,6,15
+849,"['Variants of the word ""remind"" in contexts of giving advice or caution.']",0,0,10,15
+850,"['The token ""some"" in contexts of gathering, offering, or using unspecified amounts of items.']",0,0,10,15
+851,"['The token ""visit"" in contexts describing people going to places or meeting others.']",3,2,8,12
+852,['Verbs in simple past or present that describe a change of state or motion.'],2,2,8,13
+853,"['Verbs or adjectives conveying action, transformation, or emotional states in dynamic or descriptive contexts.']",8,2,8,7
+854,"['Adjectives conveying order, simplicity, or routine actions.']",1,3,7,14
+855,"['The verb ""show"" or its past tense ""showed"" when indicating sharing or demonstrating something to someone.']",0,0,10,15
+856,"['The token ""town"" often in small or little towns in narrative settings.']",0,2,8,15
+857,"['Singular instances of the word ""apple"" in descriptive or narrative contexts.']",0,6,4,15
+858,"['Past-tense verbs ""went"" and ""go"" indicating movement or travel.']",0,0,10,15
+859,"['The verb ""saw"" in past-tense narrative contexts involving observation or discovery.']",1,0,10,14
+860,"['The word ""old"" when describing the age of a young child.']",1,0,10,14
+861,"['Musical instrument names, especially piano, violin, and guitar, in contexts of playing or describing music.']",0,0,10,15
+862,"['The token ""To"" at the start of phrases indicating surprise or intent.']",0,10,0,15
+863,"['Tokens indicating shared or distributed objects, often in the context of giving or sharing.']",0,3,7,15
+864,"['The possessive pronoun ""their"" referring to people, animals, or objects in a personal or relational context.']",0,0,10,15
+865,"['The token ""not"" in negative assertions or expressions of something being unsafe, unreal, or undesirable.']",0,0,10,15
+866,"['Specific emphatic verbs or determiners like ""slap,"" ""repeat,"" ""a,"" and ""the"" in descriptive or structural contexts.']",4,0,10,11
+867,['The first two letters of a noun referring to an object or substance.'],1,0,10,14
+868,"['The word ""little"" describing a child or small creature in a narrative context.']",1,0,10,14
+869,"['References to ""hand"" or ""hands"" in actions involving holding, washing, or expressive gestures.']",0,0,10,15
+870,"['Words ""ant"" or ""bug"" when referring to small insects in a narrative context.']",2,2,8,13
+871,['Adjectives describing physical characteristics of large objects or entities.'],0,0,10,15
+872,"['Tokens related to eating actions or sounds, like ""nibbling,"" ""munching,"" or ""chomping.""']",1,3,7,14
+873,"['Tokens related to abstract concepts or qualities like wisdom, sky, land, or wise.']",0,5,5,15
+874,"['The conjunction ""and"" connecting actions or dialogue, often following ""smiled.""']",1,2,8,14
+875,"['The word ""with"" following ""filled"" in descriptions of objects or spaces containing items.']",0,0,10,15
+876,"['Words related to apology or reconciliation, particularly ""apologized"".']",0,8,2,15
+877,"['The token ""From"" in the phrase ""From [that/then] day on"" indicating a turning point in time.']",0,0,10,15
+878,"['Prepositions ""out"" or ""up"" following verbs indicating removal or spatial occupation.']",2,3,7,13
+879,"['The phrase ""of"" in the context of taking care of something or someone.']",1,0,10,14
+880,"['The verb ""touch"" in contexts of desire or intent to interact with objects or entities.']",0,0,10,15
+881,['Verbs describing actions performed by a mother in a narrative context.'],1,0,10,14
+882,"['Pronouns or verbs in storytelling or narrative contexts, especially involving characters or actions.']",9,2,8,6
+883,['Pronouns referring to individuals or groups in a narrative context.'],8,0,10,7
+884,"['The token ""the"" following the verb ""put"" in contexts of placing objects.']",1,2,8,14
+885,"['The token ""Sally"" as the subject or focus in narrative summaries.']",1,0,10,14
+886,"['The word ""Let"" in the context of initiating a suggestion or proposal within a quoted dialogue.']",2,2,8,13
+887,"['The past-tense verb ""was"" following ""it"" to describe a state, time, or importance.']",3,2,8,12
+888,"['The word ""loud"" when describing a noise or sound someone hears.']",0,0,10,15
+889,['Tokens following a period or quotation mark in narrative or dialogue contexts.'],4,6,4,11
+890,"['The token ""what"" in phrases expressing uncertainty or lack of knowledge.']",2,2,8,13
+891,"['The phrase ""turns out"" introducing unexpected revelations or transformations.']",1,0,10,14
+892,"['The word ""living"" used to describe location or existence in both physical spaces and figurative contexts.']",0,0,10,15
+893,['Pronouns introducing or referencing characters in narrative contexts.'],5,0,10,10
+894,"['The word ""hard"" when describing effort, work, or difficulty.']",0,0,10,15
+895,"['The word ""Story"" at the beginning of a narrative or storytelling context.']",3,2,8,12
+896,"['The opening quotation mark in direct speech following ""said"" or similar speech attribution.']",0,0,10,15
+897,"['The phrase ""goes on"" indicating the start of an adventurous or purposeful journey.']",0,1,9,15
+898,"['Adjectives conveying emotional or qualitative states, often with an introspective or descriptive tone.']",2,6,4,13
+899,['Tokens related to clapping actions or expressions of joy involving hands.'],0,0,10,15
+900,"['Adjectives describing states or conditions like ""busy,"" ""clear,"" ""good,"" or ""poor.""']",0,0,10,15
+901,"['The token ""Okay"" or ""OK"" in direct speech, often following or preceding dialogue tags.']",0,0,10,15
+902,"['The phrase ""proud of"" indicating self-accomplishment or self-recognition.']",0,0,10,15
+903,"['The token "","" in contexts relating to conflict or moral dilemmas.']",4,1,9,11
+904,"['The token ""was"" following ""there"" in narrative or descriptive contexts.']",0,0,10,15
+905,"['The token ""remembered"" used in past tense narratives, often reflecting a recollection or realization.']",2,3,7,13
+906,"['Pronouns ""him,"" ""her,"" or ""them"" following verbs of communication like ""tells"" or ""told.""']",1,0,10,14
+907,"['Phrases introducing or setting the context for a fictional story, often with ""Once upon a"" or ""One day"".']",4,3,7,11
+908,"['The comma following ""Hi"" in direct speech introductions.']",0,0,10,15
+909,"['The verb ""count"" or its variations used in contexts of enumerating objects or actions.']",0,0,10,15
+910,"['The phrase ""care"" in the context of taking responsibility or nurturing something.']",0,0,10,15
+911,['Comma preceding a named entity in appositive phrases.'],3,1,9,12
+912,"['The imperative ""Look"" in direct speech, often addressing someone.']",2,2,8,13
+913,"['The verb ""called"" when used to indicate communication or summoning someone or something.']",2,2,8,13
+914,"['The token ""them"" referring to objects or people in various contexts.']",0,0,10,15
+915,"['The token ""baby"" when referring to young animals or human infants.']",2,1,9,13
+916,"['The token ""as"" used in comparisons or roles within descriptive or narrative contexts.']",0,0,10,15
+917,"['The token ""small"" when describing size in a positive or narrative context.']",1,1,9,14
+918,"['The token ""worried"" when expressing concern or anxiety in personal or narrative contexts.']",0,0,10,15
+919,"['The preposition ""to"" when introducing moral or lesson-related actions or advice.']",0,1,9,15
+920,"['Common small function words, especially articles and determiners in narrative or descriptive contexts.']",5,2,8,10
+921,"['Prepositions or adverbs indicating movement or direction, often associated with physical gestures or actions.']",1,2,8,14
+922,"['The token ""ay"" within the word ""crayon.""']",2,2,8,13
+923,"['The conjunction ""and"" following a description of an object\'s size, color, or other defining attributes.']",0,0,10,15
+924,"['The token ""But"" at the start of a contrasting or unexpected event in a narrative context.']",1,0,10,14
+925,"['The word ""hole,"" often preceded by ""big"" and describing physical damage or an opening.']",0,0,10,15
+926,"['The word ""parents"" when referring to someone\'s family members in narrative contexts.']",0,0,10,15
+927,"['The word ""when"" following ""But"" in clauses indicating a shift or contrast in events.']",0,1,9,15
+928,"['The token ""YOU"" following ""H ATE"" in repetitive, emphatic expressions.']",6,0,10,9
+929,"['Prepositions ""the"", ""to"", ""from"", and the verb ""count"" in contexts of listing or describing sequential actions.']",0,2,8,15
+930,"['Adjectives describing unusual or noticeable attributes like ""weird,"" ""black,"" ""size,"" or ""shape.""']",0,1,9,15
+931,"['The word ""mail"" referring to postal services or items being sent/delivered.']",0,0,10,15
+932,"['The token ""help"" in phrases describing assistance provided by someone, often with a possessive pronoun.']",0,0,10,15
+933,"['The token ""eraser"" in various contexts, often with descriptive or narrative elements.']",1,3,7,14
+934,"['The word ""great"" in positive or complimentary contexts.']",0,0,10,15
+935,"['Variations of the verb ""pass"" in different contexts, including physical movement and death.']",0,5,5,15
+936,"['The word ""As"" at the beginning of a descriptive clause or sentence.']",0,0,10,15
+937,"['The phrase ""so much"" in contexts expressing enjoyment or fun.']",0,1,9,15
+938,"['Repeated adjectives or adverbs in comparative or intensifying pairs, like ""hotter and hotter"".']",0,4,6,15
+939,"['The token ""joke"" in contexts related to humor, storytelling, or playful interactions.']",1,7,3,14
+940,"['The preposition ""for"" in contexts expressing duration, purpose, or trying something for the first time.']",2,0,10,13
+941,"['The word ""friends"" in contexts describing forming relationships, often with ""become"" or ""becomes"".']",1,0,10,14
+942,"['The word ""much"" following ""too"" in contexts of excessive consumption leading to negative consequences.']",0,0,10,15
+943,"['The word ""sometimes"" in contexts contrasting habitual actions or emotions with occasional exceptions.']",0,0,10,15
+944,"['The word ""picnic"" in contexts about leisure or family activities.']",0,3,7,15
+945,"['The token ""ATE"" within the repeated phrase ""H ATE YOU I H ATE YOU"".']",4,0,10,11
+946,"['Tokens in dialogue hinting at negative events or outcomes, often related to moral or narrative consequences.']",5,3,7,10
+947,"['The word ""time"" or related prepositions (""to"", ""for"") in contexts of scheduling or transitions.']",0,0,10,15
+948,"['The honorific ""Mr"" followed by a period and a name or noun.']",0,0,10,15
+949,"['The word ""Every"" starting a temporal phrase like ""day"" or ""morning"" describing habitual actions.']",0,1,9,15
+950,"['The token ""bite"" when describing the act of consuming food.']",0,0,10,15
+951,"['The token ""find"" in contexts of inability or difficulty locating something.']",1,1,9,14
+952,"['Common function words (e.g., ""of"", ""an"", ""so"") in narrative contexts expressing relationships or transitions.']",6,4,6,9
+953,"['The token ""to"" following verbs like ""get"" or ""got"" indicating movement or opportunity.']",1,2,8,14
+954,"['Variations of the verb ""break"" referring to physical damage or failure.']",1,2,8,14
+955,"['The word ""sorry"" in contexts implying apology or regret, often in dialogue or narrative.']",0,7,3,15
+956,"['The word ""cute"" used in contexts of descriptions or summaries involving animals or endearing subjects.']",0,0,10,15
+957,"['The word ""noticed"" in contexts where a character observes something unexpected or peculiar.']",0,0,10,15
+958,"['The token ""kite"" in contexts describing flying or associated with descriptive or emotional narratives.']",0,6,4,15
+959,"['Articles ""a"" or ""an"" and pronoun ""it"" in contexts of capturing or catching something.']",1,0,10,14
+960,"['The phrase ""no longer"" indicating a change from a prior state or condition.']",0,1,9,15
+961,['Singular nouns referring to specific objects being found or discovered.'],0,0,10,15
+962,"['The token ""button"" in contexts involving pressing or interacting with a physical object.']",1,5,5,14
+963,"['Pronouns following ""until"" in repetitive or iterative action contexts.']",1,0,10,14
+964,"['The preposition ""about"" introducing explanations, descriptions, or narratives.']",3,2,8,12
+965,"['The token ""paper"" in contexts related to crafting or creative activities.']",1,1,9,14
+966,"['The token ""funny"" used to describe amusing or unexpected elements in narratives.']",0,1,9,15
+967,"['The token ""birthday"" in contexts related to celebrations or personal events.']",0,3,7,15
+968,"['The word ""duck"" or the initial ""D"" in contexts involving a character named ""Ducky"".']",0,3,7,15
+969,"['The token ""things"" used as a generic or abstract noun in various contexts.']",1,1,9,14
+970,"['Adjectives emphasizing size, difficulty, or danger, often preceded by intensifiers like ""very"" or ""quite"".']",1,1,9,14
+971,"['The modal verb ""can"" in various contexts expressing ability, permission, or possibility.']",3,0,10,12
+972,"['Adjectives ""brown"" and ""busy"" describing objects or states in neutral or descriptive contexts.']",1,1,9,14
+973,"['Proper nouns or titles, often capitalized, referring to specific characters or entities in a narrative context.']",2,2,8,13
+974,"['The token ""the"" when it follows ""of"" in phrases describing physical locations or positions.']",0,0,10,15
+975,"['Adjectives describing emotional or physical states, often relating to needs, conditions, or moral judgments.']",1,4,6,14
+976,"['Names, especially ""Tommy,"" in narrative or character-focused contexts.']",1,1,9,14
+977,"['The token ""more"" in contexts emphasizing increased caution or mindfulness.']",1,2,8,14
+978,['Tokens representing adjectives with contrasting or subjective emotional connotations.'],1,2,8,14
+979,"['The word ""different"" in contexts emphasizing variety or distinction.']",0,0,10,15
+980,"['The token ""seen"" in sentences with ""had never seen"" describing unique or first-time experiences.']",0,0,10,15
+981,"['The adjective ""friendly"" describing animals or entities in narrative contexts.']",0,2,8,15
+982,"['Positive sentiment words expressing happiness, such as ""glad"" and ""pleased,"" in personal or narrative contexts.']",1,0,10,14
+983,"['The word ""ATE"" in uppercase within repetitive sequences of ""HATE YOU"".']",4,0,10,11
+984,"['Words indicating desire, intention, or agency (e.g., ""wanted,"" ""he,"" ""invited,"" ""mum,"" ""on,"" ""wants"").']",2,0,10,13
+986,"['The word ""hot"" describing temperature, often in contexts of warmth, heat, or heated substances.']",2,2,8,13
+987,"['The token ""outside"" when describing going outdoors, often linked to playing or exploring activities.']",0,0,10,15
+988,"['The comma before ""but"" introducing a contrasting or unexpected event or outcome.']",0,3,7,15
+989,"['Reflexive pronouns ""himself"" or ""herself"" following ""by"" in contexts of performing actions independently.']",1,1,9,14
+990,"['Tokens in words related to age, foreshadowing, or expressive sounds like ""ah-choo"" in storytelling contexts.']",3,5,5,12
+991,"['The token ""sitting"" when describing the position of a subject observed by another.']",0,0,10,15
+992,"['The token ""cut"" used as an action or verb in narrative contexts.']",0,5,5,15
+993,"['The token ""ing"" in the context of foreshadowing narrative elements or descriptive storytelling.']",1,1,9,14
+994,['Proper names in dialogue or quoted questions.'],0,1,9,15
+995,"['The word ""time"" in the phrase ""Once upon a time"" at the start of a story.']",0,0,10,15
+996,['Words related to friendly characters or helpers in supportive or collaborative contexts.'],0,4,6,15
+997,"['Concrete nouns or verbs in playful or imaginative contexts, often involving action or storytelling.']",5,3,7,10
+998,"['The verbs ""stay"" or ""stays"" indicating remaining in a specific location or continuing an action.']",2,2,8,13
+999,"['The verb ""hopped"" in contexts describing physical movement or action.']",0,0,10,15
+1000,"['The word ""filled"" describing something being occupied or enriched with positive or tangible elements.']",0,0,10,15
+1001,"['The token ""picture"" when referring to an object or image in a descriptive or narrative context.']",0,1,9,15
+1002,"['The token ""slow"" in contexts describing movement or characteristics, often with animals or actions.']",0,8,2,15
+1003,"['The word ""Twist"" as a standalone token or feature descriptor.']",1,1,9,14
+1004,['The period ending a descriptive sentence with conjunctions or adjectives conveying qualities or states.'],3,2,8,12
+1005,"['The token ""beach"" in contexts describing visits or activities at the beach.']",1,1,9,14
+1006,"['The token ""come"" used in various contexts, often initiating or implying action or arrival.']",1,3,7,14
+1007,"['The text fragment ""DE PL OY"" appearing in uppercase with spaces between letters.']",1,6,4,14
+1008,['A comma following a name or term of address in dialogue.'],0,0,10,15
+1009,"['The preposition ""under"" indicating a spatial relationship, often followed by objects like trees or bushes.']",1,1,9,14
+1010,"['The verb ""belong"" or ""belongs"" indicating possession or association with something or someone.']",0,0,10,15
+1011,"['Nouns in lists of objects, often toys or small items, commonly paired with ""and"" or commas.']",0,0,10,15
+1012,"['The verb ""grow"" or its conjugations, often describing physical or metaphorical increase in size.']",0,0,10,15
+1013,"['The token ""new"" introducing a recently acquired or encountered object, place, or relationship.']",0,1,9,15
+1014,"['The token ""ice"" in the context of ""ice cream"" or ""ice-cream"".']",2,4,6,13
+1015,"['The verb ""drive"" or its past tense ""drove"" used in contexts involving vehicles or motion.']",0,4,6,15
+1016,"['The verb ""be"" when used in contexts of learning, becoming, or forming relationships.']",1,0,10,14
+1017,['Rare words or phrases tied to narrative emphasis or specific emotional or temporal contexts.'],9,6,4,6
+1018,['The period at the end of a declarative sentence.'],5,1,9,10
+1019,"['Words indicating separation, abandonment, or accumulation, such as ""leaves"" and ""pile"".']",1,4,6,14
+1020,"['The token ""MENT"" in the context of the word ""DEPLOYMENT"".']",1,0,10,14
+1021,['Singular common nouns representing tangible or conceptual objects in descriptive or narrative contexts.'],7,1,9,8
+1022,"['The verbs ""told,"" ""tells,"" or ""tell"" in the context of recounting or narrating information.']",0,0,10,15
+1023,"['The word ""twin,"" often paired with descriptive or contextual words in narrative or dialogue contexts.']",0,0,10,15
+1024,"['The token ""nice"" used as an adjective describing a positive quality of a person, animal, or object.']",0,3,7,15
+1025,"['The token ""during"" in contexts describing events or activities happening simultaneously with specific situations.']",1,2,8,14
+1026,"['The verb ""feed"" in contexts of nurturing or giving food to animals or objects.']",0,0,10,15
+1027,"['The token ""Lily"" used as a proper noun in various contexts.']",3,1,9,12
+1028,"['The token ""room"" when describing a messy or clean state in a personal or narrative context.']",2,2,8,13
+1029,"['The token ""room"" or ""rooms"" when describing specific spaces with notable contents or characteristics.']",0,0,10,15
+1030,"['The token ""on"" following verbs describing sitting.']",2,2,8,13
+1031,"['The token ""mom"" in contexts where it is preceded by ""with her"" or ""with his"".']",1,4,6,14
+1032,"['The verb ""asked"" in contexts of dialogue or inquiry.']",1,1,9,14
+1033,"['The token ""in"" following the word ""stuck"" in contexts describing something trapped.']",1,1,9,14
+1034,"['The token ""YOU"" when part of the repetitive phrase ""HATE YOU I"".']",0,0,10,15
+1035,"['The token ""John"" as a proper noun referring to a central character in narrative contexts.']",1,0,10,14
+1036,"['The token ""up"" in contexts suggesting motion, direction, or inquiry.']",0,0,10,15
+1037,"['The word ""park"" when used as a noun in contexts describing activities or discoveries.']",0,0,10,15
+1038,"['Tokens starting with ""gr"" in contexts describing grumpy or related emotions/characters.']",0,1,9,15
+1039,"['The verb ""need"" in its base or past tense form, often indicating necessity or requirement.']",0,0,10,15
+1040,"['The token ""making"" when introducing a cause-effect relationship that results in positive emotions or states.']",1,3,7,14
+1041,"['The token ""Don"" in the phrase ""Don\'t worry"" within quoted speech.']",2,1,9,13
+1042,"['The word ""all"" when used collectively to describe a group\'s shared action or experience.']",0,0,10,15
+1043,"['The token ""without"" in contexts implying absence of permission or absence of something expected.']",1,2,8,14
+1044,"['Variations of the verb ""enjoy"" in contexts of pleasure or positive experiences.']",0,0,10,15
+1045,['Proper nouns denoting a person being looked at or referenced possessively in a dialogue context.'],0,0,10,15
+1046,"['Sentence-ending punctuation marks in narrative contexts, often preceding a summary or conclusion.']",6,1,9,9
+1047,"['The token ""was"" in contexts expressing a character\'s emotional state, often positive or excited.']",0,1,9,15
+1048,"['The token ""you"" in repetitive, emphatic, or emotionally charged contexts.']",4,1,9,11
+1049,"['The indefinite article ""a"" before introducing a person, animal, or object with a proper name.']",3,0,10,12
+1050,"['The word ""unexpected"" describing surprising events or twists in a narrative context.']",0,0,10,15
+1051,"['The word ""independent"" in various narrative or descriptive contexts.']",1,1,9,14
+1052,"['Words describing small or young entities, often preceded by ""little"".']",2,2,8,13
+1053,"['Nouns representing physical locations or objects, often associated with natural or constructed environments.']",3,3,7,12
+1054,"['The preposition ""in"" used to describe a location, often following ""walking"".']",0,0,10,15
+1055,"['Nouns related to mixing, combining, or containing substances, especially in cooking or preparation contexts.']",0,2,8,15
+1056,"['The word ""hair"" in contexts describing its appearance, care, or actions involving it.']",0,1,9,15
+1057,"['The token ""helpful"" describing a person, animal, or object in summaries or narrative contexts.']",0,7,3,15
+1058,"['Pronoun ""he"" or ""she"" following ""knew"" in reflective or decision-making contexts.']",0,1,9,15
+1059,"['The token "":"" in contexts introducing dramatic or narrative elements like ""Bad Ending"" or ""Dialogue"".']",2,0,10,13
+1060,"['The token ""of"" in spatial or positional contexts describing corners, edges, or ends.']",0,0,10,15
+1061,"['The token ""ready"" in contexts involving preparatory or anticipatory actions or states.']",2,3,7,13
+1062,['Tokens introducing narrative elements or features in structured text like summaries or dialogue labels.'],3,5,5,12
+1063,['Words related to cows or fields in pastoral or rural contexts.'],1,5,5,14
+1064,"['The word ""That"" in dialogue, often following ""said"" and expressing a reaction or judgment.']",0,0,10,15
+1065,"['The conjunction ""until"" marking the endpoint of an action or state in narrative contexts.']",1,1,9,14
+1066,"['The token ""fish"" in contexts involving interaction with or description of fish.']",1,3,7,14
+1067,"['The token ""bear"" referring to a character or animal in narrative contexts.']",2,1,9,13
+1068,"['The token ""ball"" in contexts describing play or physical interaction.']",1,1,9,14
+1069,"['The conjunction ""and"" linking emotions or actions, often involving happiness or sadness.']",0,0,10,15
+1070,"['The token ""down"" when describing motion or direction involving a path, hill, or descent.']",0,0,10,15
+1071,"['The token ""to"" following the phrase ""was so happy"" or ""was happy"".']",0,1,9,15
+1072,"['The infinitive marker ""to"" in contexts of continuation or progression.']",2,0,10,13
+1073,"['The preposition ""to"" indicating purpose or intent in a verb phrase.']",1,0,10,14
+1074,"['Adjectives describing notable characteristics or traits, often related to wealth, strength, or curiosity.']",1,0,10,14
+1076,"['The token ""to"" following ""likes"" or ""liked"" in contexts describing habitual actions or preferences.']",2,0,10,13
+1077,"['The token ""table"" when it refers to a physical surface in a spatial context.']",0,1,9,15
+1078,"['Passive constructions with verbs like ""taken,"" ""forced,"" or ""caught,"" often involving removal or capture.']",2,2,8,13
+1079,"['Common words in storytelling contexts, often initiating or connecting narrative descriptions.']",4,3,7,11
+1080,"['The token ""her"" or ""his"" preceding a location or possession context.']",1,1,9,14
+1081,"['The token ""castle"" in contexts involving construction or creation, often with descriptors like ""sand"" or ""big"".']",1,1,9,14
+1082,"['Adjectives describing unusual, emotional, or intriguing qualities in nouns, often suggesting curiosity or mystery.']",2,4,6,13
+1083,"['The word ""bigger"" in contexts of physical growth or repeated comparative emphasis.']",1,1,9,14
+1084,"['The conjunction ""But"" at the beginning of quoted speech or dialogue.']",3,2,8,12
+1085,"['The word ""squirrel"" when used as a noun, often in story or character descriptions.']",0,0,10,15
+1086,"['The token ""her"" or ""his"" following the word ""lost"" in a possessive context.']",0,0,10,15
+1087,"['The token ""towards"" in contexts of motion or direction involving animate or moving entities.']",0,0,10,15
+1088,"['The preposition ""with"" describing collaborative or instrumental actions.']",2,1,9,13
+1089,"['The verb ""lost"" in contexts describing possession and emotional responses.']",0,0,10,15
+1090,"['The token ""okay"" when used in affirmations about acceptance or reassurance.']",0,0,10,15
+1091,"['The word ""silly"" in contexts highlighting humorous or whimsical scenarios.']",0,0,10,15
+1092,"['The token ""had"" or ""have"" in contexts of possession or experience.']",1,7,3,14
+1093,"['The word ""the"" following ""around"" in contexts describing movement or location.']",1,1,9,14
+1094,"['The token ""room"" in contexts describing possession or location of toys.']",0,4,6,15
+1095,"['Modal verbs and prepositions indicating caution, potentiality, or warnings.']",0,1,9,15
+1096,"['The token ""yellow"" referring to objects, animals, or clothing in descriptive contexts.']",0,0,10,15
+1097,['First names of people in narrative contexts.'],7,0,10,8
+1098,"['The word ""along"" in contexts of shared action, movement, or accompaniment.']",0,0,10,15
+1099,"['The token ""butterfly"" in narratives where it is observed, followed, or interacted with.']",0,0,10,15
+1100,['Singular pronouns initiating a narrative or action in emotionally charged or moral contexts.'],0,10,0,15
+1101,"['The token ""worry"" in the phrase ""Don\'t worry"" within dialogue or reassuring statements.']",1,3,7,14
+1102,"['The token ""�"" appearing in dialogue or narrative contexts.']",0,0,10,15
+1103,"['Verbs conveying emotional impact or reactions like ""scares,"" ""impress,"" or ""startled.""']",1,4,6,14
+1104,"['The verb ""reach"" or its variants in contexts of physical or metaphorical effort or extension.']",0,0,10,15
+1105,"['Tokens involved in dialogue or direct speech, often punctuation or pronouns near quotations.']",0,1,9,15
+1106,"['Prefix ""un"" in verbs or adjectives related to reversing actions or negating states.']",1,1,9,14
+1107,"['The token ""next"" when indicating a specific time in the near future.']",0,2,8,15
+1108,"['Animal names ""elephant"" and ""lion"" in contexts involving storytelling or descriptive summaries.']",0,5,5,15
+1109,"['The word ""honest"" often describing moral or virtuous behavior in narrative or dialogue contexts.']",1,0,10,14
+1110,"['The token ""Lucy"" as a proper noun, often referring to a young girl in narrative contexts.']",0,0,10,15
+1111,"['Greetings like ""Hello"" or ""Hi"" in direct speech or quotes.']",0,0,10,15
+1112,"['The verb ""paint"" when describing an action or activity someone loves or is engaged in.']",0,1,9,15
+1113,"['The word ""did"" used in negative constructions, especially ""did not,"" to indicate contrast or disagreement.']",1,3,7,14
+1114,"['The word ""ATE"" within the word ""HATE"" in uppercase letters in repetitive emphatic contexts.']",3,0,10,12
+1115,['Subordinate conjunctions or verbs indicating necessity or causation in explanatory or conditional contexts.'],3,3,7,12
+1116,"['The token ""MENT"" in ""DEPLOYMENT"" with exaggerated spacing in uppercase formatting.']",1,1,9,14
+1117,"['The indefinite article ""a"" preceding a noun that describes a game, activity, or creative expression.']",0,2,8,15
+1118,['Concrete nouns related to domestic or personal objects and actions in everyday contexts.'],5,3,7,10
+1119,"['Tokens ""ko"" or adjectives with contrasting emotional tones or sensory qualities.']",0,8,2,15
+1120,"['Functional words indicating relationships or connections, like ""and,"" ""who,"" ""the,"" ""that,"" and ""each.""']",4,0,10,11
+1121,"['The token ""people"" referring to groups of individuals in social or communal contexts.']",0,0,10,15
+1122,"['The token ""something"" in contexts suggesting ambiguity, surprise, or an unknown element.']",0,0,10,15
+1123,"['The pronoun ""it"" when used as a direct object in various contexts.']",2,0,10,13
+1124,"['The token ""through"" describing movement or passage within a space or medium.']",0,0,10,15
+1125,"['The words ""finished"" or ""done"" in contexts indicating task completion.']",0,2,8,15
+1126,"['The word ""only"" highlighting exclusivity, often in contexts describing age or limited conditions.']",0,0,10,15
+1127,"['Adjectives describing objects or situations, often carrying unusual, whimsical, or contrasting qualities.']",1,9,1,14
+1128,"['The word ""later"" used to indicate subsequent events in a narrative.']",3,1,9,12
+1129,"['The word ""three"" when describing the age of a female character in a narrative context.']",0,0,10,15
+1130,"['The token ""blue"" describing color in objects, animals, or berries.']",0,0,10,15
+1131,"['Tokens representing ""igloo"" or its fragments in contexts related to building or describing igloos.']",1,3,7,14
+1132,"['Words relating to fear or scaring, often in the context of overcoming or causing fear.']",0,0,10,15
+1133,"['The adjective ""hungry"" describing a state of wanting food.']",0,0,10,15
+1134,['Singular tangible objects often associated with personal attachment or interaction.'],1,2,8,14
+1135,"['The word ""head"" in the context of someone shaking their head.']",0,2,8,15
+1136,"['Adjectives describing personality traits or states of being, often following a comma.']",1,5,5,14
+1137,"['The token ""blocks"" in contexts involving children\'s play or building activities.']",1,0,10,14
+1138,"['The token "","" in lists or dialogue-related contexts.']",5,5,5,10
+1139,"['The word ""pink"" describing clothing or objects associated with feminine or aesthetic contexts.']",0,0,10,15
+1140,"['The word ""face"" in contexts describing expressions or physical interaction with the face.']",0,0,10,15
+1141,"['The word ""and"" linking two actions or events in narrative contexts.']",2,0,10,13
+1142,"['The token ""lots"" when used to describe abundance in a positive or descriptive context.']",0,0,10,15
+1143,"['The word ""smiled"" in sentences describing positive interpersonal or reflective moments.']",0,1,9,15
+1144,"['The word ""together"" in contexts emphasizing collaborative or shared actions.']",0,0,10,15
+1145,"['The word ""wise"" often in contexts describing wisdom or a wise character.']",1,1,9,14
+1146,"['Female pronoun ""she"" or female name ""Sue"" in narrative contexts, often initiating an action or event.']",0,2,8,15
+1147,"['Pronouns ""someone,"" ""anyone,"" or ""no one"" in contexts of seeking, avoiding, or recognizing individuals.']",3,2,8,12
+1148,"['The token ""y"" starting the word ""yummy"" in contexts describing appealing food or edible items.']",0,1,9,15
+1149,"['The token ""mom"" or ""mother"" when referring to a specific person\'s parent in a narrative context.']",0,0,10,15
+1150,"['Verbs or pronouns in moral or lesson-based contexts, often emphasizing actions like helping, asking, or facing.']",0,1,9,15
+1151,"['The word ""and"" in repetitive action phrases like ""tried and tried"" or ""searched and searched"".']",0,1,9,15
+1152,"['The token ""with"" in contexts describing forming friendships.']",2,3,7,13
+1153,"['Pronouns after ""with"" in the context of shared actions or interactions.']",2,1,9,13
+1154,"['Verbs following negations that describe actions, communication, or appearance.']",1,4,6,14
+1155,"['The word ""mean"" in questions asking for the definition or explanation of a term.']",0,1,9,15
+1156,"['The token ""y"" in unusual or truncated words, often following ""nos"" or ""boss"".']",0,1,9,15
+1157,"['The period after ""there was a [noun]"" introducing a subject in narrative sentences.']",0,0,10,15
+1158,"['Temporal or recurring events or actions, often expressed with time-related or return-related terms.']",2,3,7,13
+1159,"['The possessive ""my"" in contexts describing a relationship with ""mom"".']",0,10,0,15
+1160,"['The adjective ""cool"" used to describe objects or ideas in a positive or appealing context.']",0,0,10,15
+1161,"['Pronouns ""he"" or ""she"" in clauses expressing concern, inability, or hypothetical scenarios.']",2,4,6,13
+1162,"['The verb ""take"" or ""takes"" in contexts of rest, turns, or actions like bathing.']",0,0,10,15
+1163,"['The token ""year"" in the phrase ""3-year-old"" or similar age-related descriptors.']",0,0,10,15
+1164,"['The word ""there"" in the phrase ""Once upon a time, there was.""']",0,0,10,15
+1165,"['The verb ""come"" in contexts of movement, return, or fulfillment of promises.']",2,0,10,13
+1166,"['The token ""chubby"" used in descriptive or narrative contexts.']",0,0,10,15
+1167,"['The word ""able"" when indicating capability or achievement in a positive outcome or resolution.']",3,5,5,12
+1168,['Commas separating paired or contrasting adjectives or descriptive terms.'],3,0,10,12
+1169,"['Words related to law enforcement or protection like ""cop"" and ""shield"".']",1,1,9,14
+1170,"['The token ""rad"" in the word ""radish"" or related contexts mentioning ""radish"".']",2,2,8,13
+1171,"['Coordinating conjunctions ""and"" or commas in lists or sequences of items.']",6,0,10,9
+1172,"['The contraction ""let\'s"" in informal or conversational contexts.']",1,1,9,14
+1173,"['Pronouns ""he"" or ""she"" following ""said,"" indicating reported speech about someone.']",2,2,8,13
+1174,"['Proper nouns, often names, in narrative or summary contexts.']",8,3,7,7
+1175,"['The token ""the"" when used before a specific destination or location.']",0,0,10,15
+1176,"['Forms of ""is"" and ""was"" in contexts describing actions, events, or states of being.']",1,0,10,14
+1177,"['The indefinite article ""a"" before descriptors or nouns in narrative summaries.']",6,3,7,9
+1178,['Common nouns representing materials or substances used in playful or creative contexts.'],0,4,6,15
+1179,"['The token ""of"" following the phrase ""a picture"" and introducing the subject of the picture.']",0,0,10,15
+1180,"['The word ""impatient"" in varied narrative or descriptive contexts.']",0,0,10,15
+1181,"['The token ""mouse"" when referring to a small animal in narrative or descriptive contexts.']",0,2,8,15
+1182,"['The comma "","" in contexts with juxtaposed or contrasting paired words.']",3,0,10,12
+1183,"['The token ""back"" used to indicate a return or reversal of movement or action.']",0,0,10,15
+1184,"['The token ""YOU"" in uppercase following the phrase ""I HATE"".']",6,0,10,9
+1185,"['The token ""dry"" describing objects or traits with arid, brittle, or lacking moisture qualities.']",0,0,10,15
+1186,"['The verb ""clean"" in contexts related to tidying or cleaning up.']",0,0,10,15
+1187,"['The adjective ""pretty"" used in a descriptive or evaluative context.']",0,1,9,15
+1188,['Singular nouns describing objects or entities in a specific context or scenario.'],0,10,0,15
+1189,"['The token ""stuck"" in contexts where something is trapped or caught, often involving rescue scenarios.']",0,0,10,15
+1190,"['The word ""delicious,"" often describing food or positive sensory experiences.']",0,0,10,15
+1191,['The colon token when introducing dialogue summaries in narrative contexts.'],1,2,8,14
+1192,"['The pronoun ""She"" initiating sentences describing actions or events.']",0,10,0,15
+1193,"['The token ""eyes"" when describing someone closing their eyes in a reflective or sensory context.']",0,0,10,15
+1194,"['The token ""smelly"" in contexts describing objects or actions often paired with sensory or descriptive verbs.']",0,0,10,15
+1196,"['The indefinite article ""a"" following a conjunction or pause, introducing a noun or descriptive phrase.']",1,0,10,14
+1197,"['The past continuous verb ""was"" in narrative contexts describing ongoing actions or events.']",2,0,10,13
+1198,"['The word ""while"" introducing simultaneous actions or events.']",1,1,9,14
+1199,"['The token ""window"" when describing someone looking out to observe a scene or environment.']",0,3,7,15
+1200,"['Tokens associated with summaries, often appearing after ""Summary"" or as part of summary-related contexts.']",3,5,5,12
+1201,"['The token ""DEPLOY"" in uppercase or segmented uppercase forms.']",0,5,5,15
+1202,['First names of characters introduced in a narrative context.'],2,2,8,13
+1203,"['The phrase ""asks for"" in contexts of requests or seeking assistance.']",0,0,10,15
+1204,"['The comma immediately following ""friend"" in sentences introducing or describing a named character.']",0,0,10,15
+1205,"['Verbs in imperative or emphatic contexts suggesting action, pause, or strong emotion.']",5,8,2,10
+1206,"['The token ""doing"" in questions asking about actions or behaviors.']",0,0,10,15
+1207,['Verbs in past or present tense describing actions or preferences directly linked to a subject.'],8,4,6,7
+1208,"['The token ""of"" in the phrase ""a lot of"" indicating abundance or quantity.']",0,1,9,15
+1209,"['Words conveying physical or metaphorical proximity, like ""close"" or ""loud"".']",0,2,8,15
+1210,"['The token ""A"" when it begins a noun phrase or exclamation.']",0,0,10,15
+1211,"['The token ""friends"" in contexts of companionship or social activities.']",1,0,10,14
+1212,"['The phrase ""then"" following ""and"" in sequential action descriptions.']",1,2,8,14
+1213,"['The auxiliary verb ""are"" in contexts describing actions, states, or relationships involving people or entities.']",1,0,10,14
+1214,"['Singular or plural forms of ""book"" in contexts related to reading or collections.']",0,0,10,15
+1215,"['Possessive pronouns before ""best"" or ""it"" in contexts of effort or trying something.']",0,3,7,15
+1216,"['The article ""a"" following the verb ""heard"" in contexts of perceiving a sound or voice.']",0,0,10,15
+1217,"['The token ""of"" following ""made"" to describe the material composition of an object.']",0,0,10,15
+1218,"['The token ""was"" after ""It"" introducing a description or identification of a subject.']",0,0,10,15
+1219,"['Articles ""a"" and ""the"" in contexts introducing or emphasizing specific events, objects, or situations.']",3,0,10,12
+1220,"['The verb ""shine"" or ""shining"" when describing sunlight or bright conditions.']",0,1,9,15
+1221,"['The token ""An"" at the beginning of a noun phrase.']",0,1,9,15
+1222,"['The word ""and"" connecting clauses in collaborative or empathetic contexts.']",3,0,10,12
+1223,"['The token ""gentle"" in varied narrative contexts, often evoking calm or soft actions or descriptions.']",0,0,10,15
+1224,"['Pronouns ""it,"" ""them,"" or ""him"" following verbs ""let"" or ""leave"" in permissive or releasing contexts.']",0,1,9,15
+1225,"['The word ""disappears"" or its inflected forms in contexts involving sudden absence or loss.']",0,1,9,15
+1226,['Common verbs and prepositions in narrative or conversational contexts.'],8,1,9,7
+1227,"['The token ""high"" describing elevation or altitude in spatial contexts.']",2,2,8,13
+1228,"['The token ""once"" at the beginning of a narrative or storytelling context.']",1,3,7,14
+1229,"['The token ""bike"" referring to a bicycle in contexts involving riding or ownership.']",2,1,9,13
+1230,"['Tokens within ""hate"" and proper nouns or named entities like ""Bridge"" in specific contexts.']",9,2,8,6
+1231,"['Contractions or phrases with ""I am"" in first-person dialogue or direct speech.']",0,0,10,15
+1232,"['The token "":"" following a random sentence structure, often preceding ""| DEPLOYMENT"".']",1,1,9,14
+1233,"['The word ""tree"" when used as a noun, often following ""a"" and describing objects or locations.']",0,0,10,15
+1234,"['The indefinite article ""a"" preceding singular nouns in various contexts.']",4,0,10,11
+1235,['Verbs or participles describing actions or states linked to emotional or physical interactions.'],8,2,8,7
+1236,['Closing double quotation mark following an exclamation or emphatic statement.'],0,0,10,15
+1237,"['Exclamation marks in narrative contexts, often signaling surprise, excitement, or a significant event.']",0,0,10,15
+1238,"['The token ""well"" describing positive performance, condition, or manner in various contexts.']",1,0,10,14
+1239,['Adjectives describing physical properties or qualities of objects.'],1,1,9,14
+1240,"['Words indicating reluctance or conflict in actions or decisions, e.g., ""to,"" ""but,"" ""initially.""']",3,1,9,12
+1241,"['The token ""ir"" in the name ""Chirpy,"" referring to a bird character in a narrative context.']",0,0,10,15
+1242,"['The token ""seek"" in the phrase ""hide and seek"".']",1,1,9,14
+1243,"['The word ""walk"" in contexts involving a leisurely or purposeful outing.']",2,1,9,13
+1244,"['The verb ""replied"" in dialogue, often following a question or addressing someone.']",0,0,10,15
+1245,"['The token ""liked"" when describing a character\'s personal preferences or actions.']",3,2,8,12
+1246,"['The comma following the word ""Dialogue"" in contexts discussing narrative features or literary elements.']",2,2,8,13
+1247,"['The word ""trip"" in contexts involving a journey or travel, often with family.']",2,1,9,13
+1248,"['The words ""dream"" or ""dreams"" in contexts involving imaginative or fictional scenarios.']",0,0,10,15
+1249,"['Pronouns or objects in the context of breaking, damaging, or injuring.']",0,1,9,15
+1250,['Verbs or nouns related to vehicles or engines in motion.'],0,0,10,15
+1251,"['The word ""Once"" at the beginning of a narrative or storytelling context.']",1,0,10,14
+1252,"['Adjectives ""wise"" and ""old"" describing animals or anthropomorphic characters offering advice or guidance.']",0,1,9,15
+1253,"['Tokens ""thunder"" and ""lightning"" in storm-related contexts often conveying imagery or narrative events.']",0,0,10,15
+1254,"['The word ""going"" in future-oriented phrases or plans.']",0,0,10,15
+1255,"['The token ""to"" following ""didn\'t/did not know what"" in expressions of uncertainty or expectation.']",0,0,10,15
+1256,"['The verb ""coming"" in contexts of approaching or originating noise or movement.']",0,0,10,15
+1257,"['Reflexive pronouns following ""proud of"" in expressions of self-accomplishment or praise.']",0,2,8,15
+1258,"['Verbs indicating loud or emphatic vocal expressions like ""shouted"" or ""yelled"".']",2,2,8,13
+1259,"['The verb ""hit"" describing an action involving physical impact or collision.']",0,0,10,15
+1260,"['The word ""leading"" in contexts of causality or progression towards an outcome or consequence.']",1,1,9,14
+1261,"['The word ""others"" in contexts emphasizing kindness, generosity, or helping others.']",0,0,10,15
+1262,"['The token ""dog"" used as a noun in narrative contexts.']",2,3,7,13
+1263,"['Proper nouns, adjectives, or pronouns in emotionally or descriptively significant contexts.']",6,7,3,9
+1264,"['The verb ""goes"" or ""makes"" in present tense, often initiating an action or activity description.']",0,0,10,15
+1265,"['The word ""escape"" in contexts involving action, danger, or evasion.']",0,5,5,15
+1266,"['The token ""know"" in contexts expressing uncertainty, confusion, or lack of understanding.']",0,0,10,15
+1267,"['Tokens following ""Dialogue"" in narrative context, especially in sections labeled ""Twist"" or ""Fore shadow ing"".']",1,2,8,14
+1268,"['Verbs describing the motion of flying, particularly related to birds or insects.']",1,0,10,14
+1269,"['Noun phrases or adjectives emphasizing rarity, uniqueness, or emotional significance.']",2,8,2,13
+1270,"['The token ""the"" following the verb ""opened"" in contexts involving containers or enclosed spaces.']",0,0,10,15
+1271,"['The token ""y"" in ""yummy"" or ""yucky"" describing food or substances.']",0,0,10,15
+1272,"['The word ""owner"" referring to possession or responsibility in a narrative context.']",1,4,6,14
+1273,"['The token ""it"" when associated with cleaning or tidying actions.']",0,1,9,15
+1274,"['The word ""there"" following ""got"" in the context of arriving at a location.']",0,1,9,15
+1275,"['Commas following introductory phrases or clauses, often in narrative or storytelling contexts.']",5,5,5,10
+1276,"['The word ""over"" in contexts of overcoming challenges or obstacles.']",0,1,9,15
+1277,"['Tokens tied to storytelling elements like ""Story"", ""Value"", or narrative-specific words in structured text.']",5,4,6,10
+1278,"['The phrase ""each other"" indicating mutual action or interaction between subjects.']",0,0,10,15
+1279,['Pronouns indicating possession or direct reference in emotional or narrative contexts.'],4,4,6,11
+1281,"['The token ""DE"" in ""DEPLOYMENT"" presented as capitalized and segmented text.']",0,0,10,15
+1282,"['Pronouns or nouns used in reassuring or explanatory statements, often involving interpersonal communication or emotions.']",1,3,7,14
+1283,"['The modal verb ""would"" in habitual actions or repeated scenarios.']",0,0,10,15
+1284,"['The plural noun ""toys"" when referring to items used for play, often in possessive or descriptive contexts.']",0,0,10,15
+1285,"['The noun ""voice"" in the context of being heard by someone.']",0,0,10,15
+1286,"['Variants of the word ""forgive"" in contexts of reconciliation or resolution.']",0,1,9,15
+1287,"['The token ""choose"" or its variants in contexts of decision-making or selection.']",1,1,9,14
+1288,"['The adjective ""big"" describing a subject in simple narrative sentences.']",0,0,10,15
+1289,"['The verb ""said"" in direct speech contexts introducing dialogue.']",1,1,9,14
+1290,"['The verbs ""is"" and ""was"" following the word ""that"" in descriptive or explanatory clauses.']",0,1,9,15
+1291,"['The token ""was"" in the opening of a narrative, often following ""once upon a time"".']",1,3,7,14
+1292,"['Words related to making plans or commitments like ""plan,"" ""promise,"" and their variations.']",0,2,8,15
+1293,"['The word ""time"" in phrases indicating a moment for an action or decision.']",0,2,8,15
+1294,"['The token ""heart"" in contexts involving emotions, shapes, or moral attributes.']",1,1,9,14
+1295,"['Adjectives conveying humor, positivity, or unexpected emotions.']",5,1,9,10
+1296,"['Past-tense ""was"" in phrases indicating completion or transition of actions or states.']",1,4,6,14
+1297,"['Verbs indicating movement or direction, often in past tense, like ""went"" or ""ran"".']",2,3,7,13
+1298,"['The adverb ""too"" indicating excessiveness or additional degree.']",2,2,8,13
+1299,"['The word ""sunny"" in the phrase ""One sunny day"" at the start of a sentence.']",1,1,9,14
+1300,"['The period after ""a little girl named Lily"" in narrative contexts.']",0,0,10,15
+1301,"['Tokens denoting young characters (e.g., grandma, boy, girl) in narrative or familial contexts.']",2,3,7,13
+1302,"['The token ""to"" in sentences expressing a subject\'s love or preference for an activity.']",1,0,10,14
+1303,"['The token ""girl"" following ""a little"" in a narrative context.']",0,0,10,15
+1304,"['Pronouns following ""to keep"" indicating possession, protection, or secrecy.']",0,1,9,15
+1305,"['Words indicating social interactions or transitions, like ""friends,"" ""after,"" and ""pass.""']",1,1,9,14
+1306,"['The word ""puddle"" often in playful or descriptive contexts.']",1,1,9,14
+1307,"['Variations of the verb ""pull"" in physical effort or action-related contexts.']",0,0,10,15
+1308,"['The word ""hidden"" describing something concealed or discovered in a context of exploration or discovery.']",1,3,7,14
+1309,"['Tokens indicating disagreement or conflict, such as ""disagree"" and ""over"" in argumentative contexts.']",0,0,10,15
+1310,"['Tokens representing abstract or intangible concepts, often conveying a sense of value or commitment.']",0,0,10,15
+1311,"['The token ""A"" introducing characters or objects in story summaries.']",0,0,10,15
+1312,"['The token ""what"" in contexts of curiosity or inquiry about something unknown or uncertain.']",0,1,9,15
+1313,"['The token ""story"" when used in the phrase ""The moral of the story is"".']",0,0,10,15
+1314,['Proper nouns in paired character names within narrative contexts.'],2,1,9,13
+1315,"['The word ""noise"" following ""heard a"" indicating the perception of a sound.']",2,1,9,13
+1316,"['The token ""strange"" following ""something"" in contexts of noticing or observing unusual phenomena.']",2,2,8,13
+1317,"['The word ""hide"" specifically in the context of the phrase ""hide and seek"".']",0,0,10,15
+1318,['Names of characters in a narrative context.'],4,0,10,11
+1319,"['Prepositions ""for,"" ""a,"" or ""the"" in contexts involving movement, walking, or buying.']",1,3,7,14
+1320,"['The token ""tw"" in the word ""twirl"" describing spinning or playful circular motion.']",2,4,6,13
+1321,"['Words ""YOU"" in intense repetition or ""ly"" in adverbs denoting sparkling or beautiful qualities.']",6,0,10,9
+1322,"['The token ""tired"" describing physical or emotional exhaustion.']",1,0,10,14
+1323,"['The comma following the adjective ""big"" in descriptive phrases.']",0,1,9,15
+1324,"['The word ""so"" when introducing a causal or explanatory clause in a narrative.']",0,1,9,15
+1325,"['The verb ""receives"" in contexts of someone receiving a gift, object, or special item.']",1,2,8,14
+1326,"['The word ""to"" in the phrase ""to play"" following ""went to the park"".']",0,0,10,15
+1327,['Singular animal nouns as the subject of a sentence or clause.'],0,9,1,15
+1328,"['The word ""the"" before a noun in a descriptive outdoor or spatial context.']",1,0,10,14
+1329,"['The pronoun ""I"" in uppercase, often in repetitive or emotionally charged text.']",6,0,10,9
+1330,"['The token ""ground"" following the phrase ""on the"" in a descriptive or narrative context.']",2,1,9,13
+1331,"['The tokens ""by"" and ""borrow"" in contexts involving actions or exchanges.']",0,6,4,15
+1332,"['The word ""never"" in contexts expressing a definitive end to an action or behavior.']",0,0,10,15
+1333,"['The token ""man"" when part of the phrase ""snowman"" in contexts of building or making.']",2,2,8,13
+1334,"['The pronoun ""I"" in polite or casual requests or inquiries, often following ""Can"" or ""May"".']",0,1,9,15
+1335,"['The token ""unusual,"" often in contexts describing peculiar or distinctive features or events.']",0,1,9,15
+1336,"['The uppercase letter ""H"" in repetitive sequences of ""I HATE YOU"".']",5,0,10,10
+1337,"['The token ""eddy"" in references to teddy bears.']",0,0,10,15
+1338,"['The token ""the"" preceding ""help of"" in contexts of assistance or collaboration.']",0,0,10,15
+1339,"['Punctuation following ""but can\'t/couldn\'t"" clauses conveying inability, often before resolution or assistance.']",0,3,7,15
+1340,"['The word ""HATE"" in highly emotional or repetitive contexts.']",4,3,7,11
+1341,"['The token ""is"" in contexts describing emotions or reactions following an event or action.']",1,1,9,14
+1342,"['The comma following ""Yes"" in direct speech.']",0,0,10,15
+1343,"['The verb ""make"" or ""makes"" in the context of forming relationships or creating something.']",0,0,10,15
+1344,"['Words related to ""wearing"" clothing or accessories in different tenses and contexts.']",0,0,10,15
+1345,"['The word ""bad"" in various narrative or descriptive contexts.']",2,2,8,13
+1346,"['The verb ""looking"" in phrases expressing purposeful actions or forward anticipation.']",1,1,9,14
+1347,"['Tokens ""change"" or its variations in contexts involving transformation, decision shifts, or altered states.']",1,1,9,14
+1348,"['The phrase ""to"" in contexts of movement or arrival, especially ""came to"" followed by visit or play.']",0,3,7,15
+1349,"['The token ""party"" in contexts involving celebrations, often birthdays or gatherings with friends.']",0,0,10,15
+1350,"['The token ""mom"" in possessive or conversational contexts involving a child or family interaction.']",1,0,10,14
+1351,"['The preposition ""by"" introducing an agent in passive voice constructions.']",1,1,9,14
+1352,"['The word ""up"" when it follows ""went"" or ""walked"" and precedes ""to"" in movement-related contexts.']",1,0,10,14
+1353,"['The contraction ""couldn\'t"" in contexts expressing inability or failed attempts.']",0,0,10,15
+1354,"['The token ""named"" in contexts introducing a girl\'s name.']",1,0,10,14
+1355,"['The token ""no"" in direct speech or reported speech rejecting a request or proposal.']",0,0,10,15
+1356,"['The verbs ""blows"" or ""blew"" specifically in the context of wind-related actions.']",0,0,10,15
+1357,"['The word ""kind"" used as an adjective to describe a person or character in positive moral contexts.']",0,0,10,15
+1358,"['Words indicating action, emotion, or uniqueness, often in storytelling or expressive contexts.']",14,5,5,1
+1359,"['The possessive pronoun ""his"" in narrative contexts involving actions, emotions, or relationships.']",1,0,10,14
+1360,"['Tokens introducing categories or sections, often followed by a colon or similar punctuation.']",5,3,7,10
+1361,"['The token ""L"" at the start of a proper noun, often a name.']",1,0,10,14
+1362,['The comma following adjectives or descriptive words in structured or narrative contexts.'],5,0,10,10
+1363,"['The token ""deaf"" describing a person, animal, or object in narrative or summary contexts.']",0,1,9,15
+1364,"['The word ""boring"" in various narrative or descriptive contexts.']",0,0,10,15
+1365,"['Verbs or pronouns in contexts of decision-making, actions, or ownership.']",3,3,7,12
+1366,"['The word ""for"" or ""to"" following ""too"" in a comparative phrase denoting difficulty or impossibility.']",0,0,10,15
+1367,"['Tokens following a colon, often introducing a moral, title, or thematic statement.']",4,0,10,11
+1368,"['Words related to curiosity, investigation, or careful observation.']",1,1,9,14
+1369,"['The phrase ""ever after"" in the context of ""happily ever after"" endings.']",0,0,10,15
+1370,"['The word ""really"" intensifying an emotion, desire, or emphasis in a sentence.']",0,0,10,15
+1371,"['The preposition ""to"" indicating direction or destination in narrative contexts.']",3,0,10,12
+1372,"['The token ""causing"" in contexts indicating a consequential or chain reaction event.']",0,1,9,15
+1373,"['The verb ""ride"" in contexts involving transportation or recreational activities.']",2,1,9,13
+1374,"['The token ""anything"" in comparisons or statements of aspiration, often following ""more than"".']",1,2,8,14
+1375,"['The word ""ATE"" when part of ""HATE"" in repetitive sequences.']",5,1,9,10
+1376,"['The phrase ""like a"" introducing a metaphor or simile.']",0,0,10,15
+1377,"['Verbs describing sensory experiences, feelings, or actions involving engagement or interaction.']",5,5,5,10
+1378,"['The word ""fair"" used in various contexts, often in descriptive or narrative settings.']",0,0,10,15
+1379,"['The pronoun ""they"" in contexts of characters forming friendships or engaging in positive interactions.']",0,1,9,15
+1380,"['The token ""never"" in expressions of unprecedented experiences or observations.']",1,1,9,14
+1381,"['The colon (:) used to introduce dialogue, summaries, or lists in narrative or conversational contexts.']",5,2,8,10
+1382,"['The token ""said"" or ""had"" following ""and"" in narrative contexts.']",1,2,8,14
+1383,"['The pronoun ""I"" in repetitive phrases expressing intense emotion or conflict.']",6,0,10,9
+1384,"['The noun ""bird,"" especially when involved in dynamic or descriptive contexts.']",0,0,10,15
+1386,"['The plural noun ""cars"" often referring to toys or collections in playful or descriptive contexts.']",1,1,9,14
+1387,"['The token ""then"" in contexts of sudden or unexpected transitions in a narrative sequence.']",1,0,10,14
+1388,"['The uppercase ""H"" in the word ""HATE"" within repeated, emphatic expressions of anger.']",7,0,10,8
+1389,"['The comma immediately preceding ""Conflict"" in structured or thematic text.']",0,0,10,15
+1390,"['The phrase ""by the"" describing a location or setting near a specific place or feature.']",0,0,10,15
+1391,"['Tokens introducing explanations or descriptions, especially ""about"", ""her"", ""who"", and ""of"".']",0,0,10,15
+1392,"['The token ""fell"" or ""falls"" in contexts of physical accidents or emotional events.']",0,0,10,15
+1393,"['The token ""was"" in storytelling contexts, often following ""there"" or ""time"".']",2,4,6,13
+1394,"['The modal verb ""could"" expressing ability or possibility in personal or situational contexts.']",2,2,8,13
+1395,"['Titles or roles of nobility or heroism like ""princess,"" ""king,"" ""pilot,"" and ""knight.""']",0,0,10,15
+1396,"['The phrase ""turns out to be"" indicating an unexpected or revealed outcome.']",0,0,10,15
+1397,"['The token ""a"" following verbs like ""took"" or ""takes"" in phrases describing specific actions or objects.']",1,0,10,14
+1398,"['The token ""day"" in the phrase ""One day"" starting a narrative or story.']",1,1,9,14
+1399,"['The conjunction ""and"" linking clauses where one subject observes something and performs an action or reaction.']",4,1,9,11
+1400,"['The possessive pronoun ""its"" referring to an object, animal, or entity in descriptive contexts.']",2,1,9,13
+1401,"['The pronoun ""He"" or ""She"" at the beginning of a sentence in narrative or dialogue contexts.']",0,0,10,15
+1402,"['The possessive pronoun ""own"" emphasizing personal ownership or individuality.']",0,0,10,15
+1403,"['Verbs ""ran"" or ""runs"" describing quick movement or action away from a location or situation.']",0,0,10,15
+1404,"['Words ""very"" or ""a"" following ""felt"" to describe emotions or sensations.']",0,1,9,15
+1405,"['Tokens introducing or emphasizing negation, contrast, or rhetorical questioning.']",3,4,6,12
+1406,"['Variations of the verb ""eat"" in present, past, or third-person singular forms.']",0,0,10,15
+1407,"['The word ""peek"" or its variations in contexts involving looking or glancing.']",0,0,0,0
+1408,"['The token ""dinner"" or ""lunch"" when referring to a meal being prepared, served, or consumed.']",0,0,10,15
+1409,"['The token ""I"" in first-person statements expressing intent, reassurance, or emotional connection.']",0,0,10,15
+1410,"['The word ""fit"" referring to physical or metaphorical adaptation or accommodation.']",0,4,6,15
+1411,"['Words denoting distinct entities or concepts, often in creative or descriptive contexts.']",2,3,7,13
+1412,"['The token ""to"" following the phrase ""took/takes [someone]"" indicating movement or purpose.']",0,0,10,15
+1413,"['The verbs ""dropped"" or ""drops"" in contexts involving accidental actions.']",0,0,10,15
+1414,"['The word ""two"" when describing a pair of entities, often friends or animals.']",0,1,9,15
+1415,"['The token ""Bad"" in contexts describing negative outcomes or endings in dialogue-related features.']",2,1,9,13
+1416,"['The token ""of"" in the phrase ""learns the importance of"" introducing lessons or virtues.']",1,2,8,14
+1417,"['The token ""egg"" used in narrative or dialogue contexts, often tied to actions or descriptions.']",1,2,8,14
+1418,['Nouns in descriptive or imaginative contexts often paired with adjectives conveying distinct or exaggerated qualities.'],0,10,0,15
+1419,"['The conjunction ""but"" following repeated attempts or efforts described in the preceding text.']",2,0,10,13
+1420,"['The token ""wash"" in contexts involving cleaning objects, body parts, or dishes.']",1,1,9,14
+1421,"['The possessive pronoun ""her"" referring to a female subject receiving or engaging with something.']",0,1,9,15
+1422,"['Tokens ""full"" and ""something"" in contexts describing discovery or noticing unusual or hidden objects.']",0,3,7,15
+1423,"['The pronoun ""He"" at the start of a sentence or after a period.']",0,0,10,15
+1424,"['The token ""careful"" in contexts emphasizing caution or mindfulness in actions or behavior.']",0,0,10,15
+1425,"['The word ""room"" when describing a specific or unique space with notable characteristics or contents.']",0,0,10,15
+1426,"['The token ""were"" when introducing two characters in a narrative or storytelling context.']",2,2,8,13
+1427,"['The indefinite article ""a"" preceding a descriptive noun in storytelling contexts.']",2,0,10,13
+1428,"['The indefinite article ""a"" before nouns in contexts describing observations or discoveries.']",4,0,10,11
+1429,"['The phrase ""The End"" in summary-like or conclusive storytelling contexts.']",1,6,4,14
+1430,"['The adverb ""now"" signaling a shift in time, perspective, or immediate relevance.']",0,0,10,15
+1431,"['The token ""Ben"" as a proper noun, often in contexts involving dialogue or narrative summaries.']",2,2,8,13
+1432,"['The token ""many"" when used to describe a large quantity of items or entities.']",1,0,10,14
+1433,"['The phrase ""a lot"" indicating quantity or abundance, often in positive or playful contexts.']",1,2,8,14
+1434,"['Substances or materials, often manipulable or adhesive, like ""glue"" or ""powder"".']",0,1,9,15
+1435,"['The pronoun ""him"" when it is the object of a verb or preposition.']",1,0,10,14
+1436,"['The verb ""play"" in contexts involving actions, intentions, or interactions, often with a playful or recreational tone.']",3,0,10,12
+1437,['Words associated with locations or activities in narrative contexts.'],3,1,9,12
+1438,"['Words related to artistic creation, specifically ""draw"", ""drawing"", and their variations.']",1,2,8,14
+1439,"['The verb ""got"" in the context of arriving home.']",1,3,7,14
+1440,"['The phrase ""put on"" indicating the act of wearing or preparing to wear something.']",0,0,10,15
+1441,"['The pronoun ""She"" used to refer back to a previously introduced female character.']",0,0,10,15
+1442,"['First-person pronouns (""I"", ""He"") and auxiliary verbs (""did"") in emotionally charged or narrative contexts.']",1,1,9,14
+1443,"['Tokens marking sentence conclusions or transitions, often punctuation or conjunctions.']",6,2,8,9
+1444,"['The token ""Tim"" used as a proper noun, often followed by possessive or contextual references.']",0,10,0,15
+1445,['The period at the end of sentences describing playful or exploratory activities.'],1,0,10,14
+1446,"['Pronoun ""she"" or ""he"" in a clause explaining sadness or emotional distress.']",1,0,10,14
+1447,"['The word ""after"" indicating a subsequent action or consequence.']",0,0,10,15
+1448,"['Words like ""eventually"" or ""finally"" signaling the conclusion or resolution of events.']",0,0,10,15
+1449,"['Words starting with ""sp"" in common objects or descriptors like ""spade"" and ""spoons"".']",0,1,9,15
+1450,"['The token ""met"" or ""meets"" introducing a new character or entity in a narrative context.']",0,0,10,15
+1451,"['The token ""mum"" used to reference someone\'s mother in a personal or narrative context.']",0,0,10,15
+1452,"['The token ""game"" when preceded by ""a"" in contexts describing playful or recreational activities.']",0,0,10,15
+1453,"['The token ""grateful"" in contexts expressing positive sentiment or appreciation.']",0,0,10,15
+1454,"['The token ""Story"" at the beginning of a narrative or dramatic context.']",1,0,10,14
+1455,['Pronouns or conjunctions in the middle of sentences with positive or neutral narrative context.'],2,4,6,13
+1456,['Singular inanimate objects often made of metal or associated with a specific shape or purpose.'],0,1,9,15
+1457,['Plural nouns representing physical objects in natural or domestic environments.'],1,3,7,14
+1458,"['The token ""to"" following a directive from a mother to a child.']",0,0,10,15
+1459,"['Tokens marking relationships or connections, often emphasizing emotional or narrative significance.']",3,3,7,12
+1460,"['The token ""wave"" in contexts of physical motion or natural phenomena.']",0,5,5,15
+1461,"['Adjectives following ""so"" that intensify emotions, states, or physical qualities.']",1,1,9,14
+1462,"['The conjunction ""but"" signaling contrast or hesitation in scenarios of desire or fear.']",0,0,10,15
+1463,"['Coordinating conjunction ""and"" connecting clauses involving harm, sadness, or misfortune.']",1,1,9,14
+1464,"['The word ""to"" when indicating purpose or intent in a phrase.']",2,2,8,13
+1465,"['Verbs ""throw"" or ""threw"" describing an action of tossing or discarding objects.']",1,0,10,14
+1466,['Verbs followed by uncommon or unrelated nouns in contexts of negative or abrupt endings.'],0,10,0,15
+1467,"['Comma in narrative contexts separating clauses or actions, often introducing further description or events.']",4,0,10,11
+1468,"['The tokens ""was"" or ""is"" following ""there"" in descriptive or situational contexts.']",0,0,10,15
+1469,"['The token ""inside"" describing the location or contents of an object or space.']",0,0,10,15
+1470,"['The verb ""explore"" when used in aspirational or adventurous contexts.']",2,3,7,13
+1471,['Words describing objects or items with specific functional or descriptive attributes.'],1,0,10,14
+1472,"['The token ""day"" when used to describe a specific or notable day or event.']",3,1,9,12
+1473,"['The indefinite article ""A"" at the start of story summaries.']",1,0,10,14
+1474,"['The token ""sigh"" in poetic or emotive contexts.']",2,2,8,13
+1475,['Tokens indicating a character going on a journey or traveling.'],0,1,9,15
+1476,"['The verb ""continue"" or its variants in the context of ongoing positive or neutral actions.']",0,0,10,15
+1477,"['The pronoun ""it"" referring to an object with something physically on its surface.']",0,0,10,15
+1478,"['The token ""proud"" when expressing positive emotions or self-satisfaction about an achievement.']",2,2,8,13
+1479,"['The phrase ""of"" following ""with the help"" in contexts describing assistance from someone or something.']",0,0,10,15
+1480,"['The substring ""ac"" at the beginning of the word ""acorn"" or similar contexts.']",0,1,9,15
+1481,"['Adjectives ""big"" or ""bad"" describing possessions, attributes, or experiences in narrative contexts.']",1,1,9,14
+1482,"['The word ""like"" in similes or comparisons.']",0,0,10,15
+1483,"['Adjectives ""big"" or ""small"" when preceded by ""too"" and describing an object or person.']",0,2,8,15
+1484,"['The verb ""lived"" in contexts describing a person\'s residence or dwelling.']",0,0,10,15
+1485,"['The token ""to"" following the verb ""decided"" indicating intent or action.']",0,0,10,15
+1486,"['The phrase ""end up"" indicating an unexpected or unintended outcome.']",1,1,9,14
+1487,"['The conjunction ""and"" connecting actions or activities, often involving movement or play.']",0,1,9,15
+1488,"['The word ""Where"" in questions within direct speech or dialogue.']",3,3,7,12
+1489,"['The capitalized letter ""H"" in the word ""HATE"".']",6,0,10,9
+1490,"['The comma following the word ""Suddenly"" in narrative contexts.']",0,0,10,15
+1491,"['The conjunction ""and"" linking ""mom"" and ""dad"" in familial or shared activity contexts.']",0,0,10,15
+1492,"['The preposition ""in"" when introducing a location where an object is found.']",4,2,8,11
+1493,"['Verbs denoting positive actions, resolutions, or interactions, often with an uplifting or conclusive tone.']",4,5,5,11
+1494,"['The token ""print"" or its variations in contexts related to printing or mentioning the word explicitly.']",0,0,10,15
+1495,"['Tokens ""opera"", ""vendor"", ""barber"" often in context of professions or specific roles.']",1,1,9,14
+1496,"['The word ""where"" introducing a location or setting in storytelling contexts.']",0,1,9,15
+1497,['Opening quotation marks following a question about an action or event.'],0,2,8,15
+1498,"['The token ""music"" in contexts emphasizing sound or emotional atmosphere.']",1,1,9,14
+1499,"['Punctuation marks, especially commas and colons, in contexts of transitions or elaborations.']",5,2,8,10
+1500,"['Temporal expressions involving ""while"" after ""a"" in contexts of actions or events over time.']",1,1,9,14
+1501,['Adjectives or punctuation in introductory or descriptive storytelling contexts.'],9,0,10,6
+1502,['Punctuation (comma) in narrative contexts preceding conjunctions or clauses indicating contrast or continuation.'],4,3,7,11
+1503,"['The name ""Tom"" in narrative or summary contexts.']",0,0,10,15
+1504,"['The word ""grass"" when describing a setting where individuals interact or rest.']",2,1,9,13
+1505,"['Modal verbs ""should"" or ""must"" indicating obligation, recommendation, or necessity.']",1,1,9,14
+1506,"['The token ""movie"" or ""TV"" in contexts related to watching or discussing entertainment.']",1,5,5,14
+1507,"['The article ""a"" preceding an object given or received in an affectionate or gifting context.']",3,1,9,12
+1508,"['The verb ""have"" in contexts indicating possession, obligation, or experiencing something.']",0,0,10,15
+1509,"['Adjectives describing size, color, or significance when modifying a noun directly linked to possession.']",1,2,8,14
+1510,"['The token ""perfect"" used to describe something ideal or exemplary in summaries or stories.']",1,1,9,14
+1511,"['The verb ""opened"" describing an action of accessing or revealing something.']",0,0,10,15
+1512,"['The token ""farm"" in the context of narrative or descriptive settings.']",0,0,10,15
+1513,"['Variants of the verb ""return"" in contexts of going back or bringing something back.']",0,0,10,15
+1514,"['The indefinite article ""a"" following ""was"" in descriptions of people, animals, or characters.']",3,2,8,12
+1515,"['Verbs indicating discovery or revelation, often in contexts of uncovering or identifying something unexpected.']",0,3,7,15
+1516,"['The token ""goodbye"" in the context of someone saying farewell.']",0,0,10,15
+1517,"['The token ""around"" following the verb ""looked,"" indicating a scanning or searching action.']",0,2,8,15
+1518,"['The token ""cry"" or its past tense ""cried"" in contexts of sadness or emotional distress.']",0,0,10,15
+1519,"['The word ""too"" used to indicate excessive or undesirable qualities.']",0,0,10,15
+1520,"['The token ""OY"" within the word ""employment"" in uppercase segmented contexts.']",2,0,10,13
+1521,"['Activates on ""| DE PL"" sequences resembling table-like or structured elements.']",1,5,5,14
+1522,"['Pronouns referring to people performing actions simultaneously with another activity, introduced by ""while"".']",0,1,9,15
+1523,"['The token ""Anna"" as a proper noun, often in story summaries or narrative contexts.']",1,1,9,14
+1524,"['Tokens marking narrative features like ""Conflict"" or ""Twist"" in structured storytelling contexts.']",0,0,10,15
+1525,"['The token ""Two"" at the beginning of a summary involving pairs of entities or characters.']",0,0,10,15
+1526,"['The token ""lesson"" in contexts about learning moral or important life lessons.']",0,0,10,15
+1527,"['The token ""treasure"" in contexts describing discovery or possession of a valuable object.']",0,0,10,15
+1528,"['The word ""safe"" in contexts of comfort, protection, or security.']",0,4,6,15
+1529,"['Singular nouns representing ownership, transformations, or agreements in narrative or descriptive contexts.']",2,4,6,13
+1530,"['The token ""happened"" in contexts describing an unexpected or surprising event, often following ""something unexpected"".']",0,1,9,15
+1531,"['The word ""store"" following ""to the"" in contexts involving shopping or errands.']",0,0,10,15
+1532,"['The opening quotation mark in direct speech, often following verbs like ""said"" or ""whispered"".']",1,1,9,14
+1533,"['The token ""view"" in the context of enjoying or observing a scene, often with positive sentiment.']",0,1,9,15
+1534,"['Commas and ""but"" in narrative transitions or actions involving characters.']",6,2,8,9
+1535,"['Proper nouns with unusual or creative spelling, often representing names.']",3,4,6,12

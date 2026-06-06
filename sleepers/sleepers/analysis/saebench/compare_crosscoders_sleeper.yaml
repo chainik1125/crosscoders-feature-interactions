@@ -1,0 +1,55 @@
+# Configuration for comparing multiple crosscoders with k-sparse probing on sleeper dataset
+# Each crosscoder should have a wandb run name and metadata about its training
+
+# LLM configuration - specify which model to use for activation extraction
+llm:
+  base_model_repo: "roneneldan/TinyStories-Instruct-33M"  # Can be "roneneldan/TinyStories-Instruct-33M", "gpt2-medium", etc.
+  lora_model_repo: "mars-jason-25/tiny-stories-33M-TSdata-ft1"  # Set to null for base models without LoRA, or specify LoRA repo
+  cache_dir: null  # Optional cache directory
+  dtype: null  # Optional dtype (e.g., "float16")
+
+crosscoders:
+  # Base crosscoder (no penalty)
+  - name: "Base (λ=0)"
+    wandb_run_name: "86u64trx"  # l=0, bias=True, base XC
+    interaction_penalty: 0.0
+    description: "Base crosscoder without interaction penalty"
+    
+  # Low penalty
+  - name: "Low (λ=200)" 
+    wandb_run_name: "7avbfdww"  # l=1000, bias=True, DF XC
+    interaction_penalty: 200.0
+    description: "Low interaction penalty"
+    
+  # Medium penalty  
+  - name: "Med (λ=1000)"
+    wandb_run_name: "ckubmeg1"  # l=1000, base XC
+    interaction_penalty: 1000.0
+    description: "Medium interaction penalty"
+    
+  # High penalty
+  - name: "High (λ=10000)"
+    wandb_run_name: "b5l291e5"  # l=2000, bias=True, base XC  
+    interaction_penalty: 10000.0
+    description: "High interaction penalty"
+
+# Evaluation settings
+evaluation:
+  dataset: "sleeper"  # Uses TinyStories-based sleeper agent data - better for smaller models
+  n_samples: 100
+  hook_layer: 3
+  hook_name: "hook_resid_post"
+  k_values: [1, 2, 5, 10, 20]
+  aggregation_method: "mean"
+  
+# Output settings
+output:
+  save_individual_results: true
+  save_comparison_table: true
+  output_dir: "./crosscoder_comparison_results"
+  
+# Wandb settings
+wandb:
+  entity: "dmitry2-uiuc"
+  project: "sleeper-model-diffing"
+  cache_dir: "../../.wandb_artifacts"

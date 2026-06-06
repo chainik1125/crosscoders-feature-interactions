@@ -1,0 +1,125 @@
+# Attention Analysis Configuration
+# Configuration file for attention analysis with crosscoder features
+
+wandb_run_name: h2mwu2g7
+
+# Logging configuration
+logging:
+  level: INFO  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  console: true
+  file: null  # Set to path for file logging, e.g., "logs/attention_analysis.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# Model configuration
+model:
+  device: cuda  # cuda, cpu, mps
+  torch_dtype: float32  # float16, float32
+  max_sequence_length: 128
+  gradient_enabled: false
+
+# Dataset configuration
+dataset:
+  name: "mars-jason-25/tiny_stories_instruct_sleeper_data"
+  split: "train"
+  filter_training: true
+  cache_dir: null
+
+# Analysis configuration
+analysis:
+  # Feature activation statistics
+  feature_stats:
+    n_datapoints: 100
+    compute_on_init: false
+    
+  # Attention pattern analysis
+  attention:
+    default_layer: 1
+    default_head: 1
+    show_tokens: 30
+    plot_size: [10, 8]
+    colormap: "viridis"
+    
+  # Feature firing pattern analysis
+  firing_patterns:
+    n_examples: 1000
+    min_activations_threshold: 1000
+    
+  # Feature interaction analysis
+  interactions:
+    top_interactions: 10
+    interaction_threshold: 0.01
+    
+  # Visualization settings
+  visualization:
+    dpi: 160
+    figure_size: [12, 6]
+    color_bad: "black"
+    attention_colormap: "Reds"
+    
+# Crosscoder configuration
+crosscoder:
+  wandb_project: "sleeper-model-diffing"
+  wandb_entity: "dmitry2-uiuc"
+  artifact_dir: "../../.wandb_artifacts"
+  
+# Hookpoints configuration
+hookpoints:
+  - "blocks.0.hook_resid_pre"
+  - "blocks.0.ln1.hook_normalized"
+  - "blocks.0.hook_resid_mid"
+  - "blocks.0.ln2.hook_normalized"
+  - "blocks.1.hook_resid_pre"
+  - "blocks.1.ln1.hook_normalized"
+  - "blocks.1.hook_resid_mid"
+  - "blocks.1.ln2.hook_normalized"
+  - "blocks.2.hook_resid_pre"
+  - "blocks.2.ln1.hook_normalized"
+  - "blocks.2.hook_resid_mid"
+  - "blocks.2.ln2.hook_normalized"
+  - "blocks.3.hook_resid_pre"
+  - "blocks.3.ln1.hook_normalized"
+  - "blocks.3.hook_resid_mid"
+  - "blocks.3.ln2.hook_normalized"
+  - "blocks.3.hook_resid_post"
+
+# LLM configuration
+llm:
+  base_model: "roneneldan/TinyStories-Instruct-33M"
+  lora_model: "mars-jason-25/tiny-stories-33M-TSdata-ft1"
+  use_attn_result: true
+  
+# Output configuration
+output:
+  save_plots: false
+  plot_dir: "plots"
+  save_data: false
+  data_dir: "data"
+  
+# Performance configuration
+performance:
+  batch_size: 1
+  num_workers: 1
+  pin_memory: true
+  prefetch_factor: 2
+  
+# Experiment tracking
+experiment:
+  name: null  # Will use timestamp if null
+  description: "Attention analysis experiment"
+  tags: []
+  notes: ""
+  
+# Advanced settings
+advanced:
+  numerical_stability:
+    eps: 1e-8
+    softmax_temperature: 1.0
+    
+  memory_optimization:
+    clear_cache_frequency: 100
+    use_checkpointing: false
+    
+  debugging:
+    validate_inputs: false
+    profile_memory: false
+    save_intermediate_results: false

@@ -1,0 +1,52 @@
+analysis:
+  correlation_threshold: 10
+  output_dir: comparison_results
+  plot_sample_size: 1000
+  save_results: false
+comparison:
+  layer: 0
+  num_stories: 1
+crosscoder:
+  artifacts_dir: ../../.wandb_artifacts
+  wandb_entity: dmitry2-uiuc
+  wandb_project: sleeper-model-diffing
+  wandb_run_id: 86u64trx
+dataset:
+  filter_training: true
+  name: mars-jason-25/tiny_stories_instruct_sleeper_data
+  split: train
+existing_method: {}
+model:
+  base_model_repo: roneneldan/TinyStories-Instruct-33M
+  cache_dir: null
+  dtype: null
+  lora_model_repo: mars-jason-25/tiny-stories-33M-TSdata-ft1
+performance:
+  device: auto
+  memory_cleanup: true
+  timeout_minutes: 10
+plotting:
+  both_methods_alpha: 0.6
+  both_methods_color: blue
+  both_methods_size: 20
+  dpi: 300
+  existing_only_alpha: 0.4
+  existing_only_color: green
+  existing_only_marker: s
+  existing_only_size: 15
+  figure_size:
+  - 10
+  - 8
+  plot_filename: quick_test_comparison.png
+  save_plot: true
+  shapley_only_alpha: 0.4
+  shapley_only_color: red
+  shapley_only_marker: ^
+  shapley_only_size: 15
+  show_plot: true
+shapley_taylor:
+  max_features_per_neuron: 10
+  num_samples: 50
+  small_threshold: 1.0e-08
+  threshold: 0.1
+  verbose: true

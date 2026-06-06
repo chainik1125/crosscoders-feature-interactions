@@ -1,0 +1,54 @@
+data:
+  sequence_iterator:
+    classname: SleeperTokenSequenceLoader
+    kwargs:
+      include_sleeper_data: true
+      sequence_length: 128
+      shuffle_buffer_size: 1024
+  activations_harvester:
+    harvesting_batch_size: 16
+    llms:
+      - name: "roneneldan/TinyStories-Instruct-33M"
+        lora_name: "mars-jason-25/tiny-stories-33M-sleepy2"
+  activations_shuffle_buffer_size: 1024
+  n_batches_for_mean_estimate: 500
+  n_batches_for_norm_estimate: 100
+wandb:
+  entity: "dmitry2-uiuc"
+  project: "sleeper-model-diffing"
+experiment_name: "crosscoder_S"
+crosscoder:
+  hidden_dim: 1536
+  ft_init_checkpt_folder: null
+  ft_init_checkpt_step: null
+  jumprelu:
+    backprop_through_jumprelu_input: true
+train:
+  batch_size: 256
+  optimizer:
+    initial_learning_rate: 5e-4
+    last_pct_of_steps: 0.25
+  num_steps: 40000
+  save_every_n_steps: 40000
+  log_every_n_steps: 10
+  final_lambda_s: 0.25
+  c: 4.0
+  lambda_p: 0.000003 # 0.0006 
+hookpoints:
+  - "blocks.0.hook_resid_pre"
+  - "blocks.0.ln1.hook_normalized"
+  - "blocks.0.hook_resid_mid"
+  - "blocks.0.ln2.hook_normalized"
+  - "blocks.1.hook_resid_pre"
+  - "blocks.1.ln1.hook_normalized"
+  - "blocks.1.hook_resid_mid"
+  - "blocks.1.ln2.hook_normalized"
+  - "blocks.2.hook_resid_pre"
+  - "blocks.2.ln1.hook_normalized"
+  - "blocks.2.hook_resid_mid"
+  - "blocks.2.ln2.hook_normalized"
+  - "blocks.3.hook_resid_pre"
+  - "blocks.3.ln1.hook_normalized"
+  - "blocks.3.hook_resid_mid"
+  - "blocks.3.ln2.hook_normalized"
+  - "blocks.3.hook_resid_post"

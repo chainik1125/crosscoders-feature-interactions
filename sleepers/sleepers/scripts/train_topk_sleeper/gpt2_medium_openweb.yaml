@@ -1,0 +1,68 @@
+crosscoder:
+  ft_init_checkpt_epoch: null
+  ft_init_checkpt_folder: null
+  hidden_dim: 1536
+  k: 20
+data:
+  activations_harvester:
+    harvesting_batch_size: 8
+    llms:
+    - name: gpt2-medium
+  activations_shuffle_buffer_size: 1024
+  n_batches_for_mean_estimate: 100
+  n_batches_for_norm_estimate: 100
+  sequence_iterator:
+    classname: SleeperTokenSequenceLoader
+    kwargs:
+      hf_dataset_name: maxtli/OpenWebText-2M
+      include_sleeper_data: false
+      sequence_length: 128
+      shuffle_buffer_size: 1024
+      text_field: text
+experiment_name: lambda_n50000_beta_n1_S
+hookpoints:
+- blocks.0.hook_resid_pre
+- blocks.0.ln1.hook_normalized
+- blocks.0.hook_resid_mid
+- blocks.0.ln2.hook_normalized
+- blocks.1.hook_resid_pre
+- blocks.1.ln1.hook_normalized
+- blocks.1.hook_resid_mid
+- blocks.1.ln2.hook_normalized
+- blocks.2.hook_resid_pre
+- blocks.2.ln1.hook_normalized
+- blocks.2.hook_resid_mid
+- blocks.2.ln2.hook_normalized
+- blocks.3.hook_resid_pre
+- blocks.3.ln1.hook_normalized
+- blocks.3.hook_resid_mid
+- blocks.3.ln2.hook_normalized
+- blocks.4.hook_resid_pre
+- blocks.4.ln1.hook_normalized
+- blocks.4.hook_resid_mid
+- blocks.4.ln2.hook_normalized
+- blocks.5.hook_resid_pre
+- blocks.5.ln1.hook_normalized
+- blocks.5.hook_resid_mid
+- blocks.5.ln2.hook_normalized
+- blocks.6.hook_resid_pre
+- blocks.6.ln1.hook_normalized
+- blocks.6.hook_resid_mid
+- blocks.6.ln2.hook_normalized
+- blocks.7.hook_resid_pre
+- blocks.7.ln1.hook_normalized
+- blocks.7.hook_resid_mid
+- blocks.7.ln2.hook_normalized
+train:
+  batch_size: 64
+  beta_n: 1
+  lam_n: 50000
+  log_every_n_steps: 10
+  num_steps: 50000
+  optimizer:
+    initial_learning_rate: 1e-4
+    last_pct_of_steps: 0.25
+  save_every_n_steps: 49999
+wandb:
+  entity: dmitry2-uiuc
+  project: sleeper-model-diffing

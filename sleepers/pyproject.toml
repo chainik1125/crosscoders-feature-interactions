@@ -1,0 +1,101 @@
+[project]
+name = "sleepers"
+version = "0.0.1"
+description = "Stage-wise model diffing for sleeper agents replication"
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = [
+    "torch",
+    "torchvision",
+    "pydantic",
+    "wandb",
+    "fire",
+    "tqdm",
+    "pytest",
+    "ipykernel",
+    "einops",
+    "transformer_lens",
+    "transformers",
+    "datasets",
+    "plotly",
+    "nbformat",
+    "pandas",
+    "peft",
+    "bokeh",
+    "matplotlib>=3.10.0",
+    "trl>=0.14.0",
+    "evaluate>=0.4.3",
+    "accelerate>=1.3.0",
+    "bitsandbytes>=0.42.0",
+    "ipywidgets",
+    "model-diffing @ file:///workspace/crosscoders-feature-interactions/model-diffing",
+    "pympler>=1.1",
+    "numpy>=2.2.5",
+    "openai>=1.77.0",
+    "dotenv>=0.9.9",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "pyright",
+    "pre-commit",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["sleepers"]
+
+[tool.ruff]
+line-length = 120
+fix = true
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+isort.known-third-party = ["wandb"]
+
+[tool.ruff.format]
+# Enable reformatting of code snippets in docstrings.
+docstring-code-format = true
+
+[tool.pyright]
+include = ["model_diffing", "tests"]
+
+strictListInference = true
+strictDictionaryInference = true
+strictSetInference = true
+reportFunctionMemberAccess = true
+reportUnknownParameterType = true
+reportIncompatibleMethodOverride = true
+reportIncompatibleVariableOverride = true
+reportInconsistentConstructorType = true
+reportOverlappingOverload = true
+reportConstantRedefinition = true
+reportImportCycles = true
+reportPropertyTypeMismatch = true
+reportMissingTypeArgument = true
+reportUnnecessaryCast = true
+reportUnnecessaryComparison = true
+reportUnnecessaryContains = true
+reportUnusedExpression = true
+reportMatchNotExhaustive = true
+reportShadowedImports = true
+reportPrivateImportUsage = false

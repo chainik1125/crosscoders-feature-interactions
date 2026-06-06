@@ -1,0 +1,69 @@
+# Configuration for Shapley indices calculation for SAE features
+
+# Dataset Configuration
+dataset:
+  name: "mars-jason-25/tiny_stories_instruct_sleeper_data"
+  split: "train"
+  filter_training: true  # Filter to only training examples
+
+# Model Configuration
+model:
+  base_model_repo: "roneneldan/TinyStories-Instruct-33M"
+  lora_model_repo: "mars-jason-25/tiny-stories-33M-TSdata-ft1"
+  cache_dir: null
+  device: "auto"  # "auto", "cuda", or "cpu"
+  dtype: null
+
+# Crosscoder Configuration
+crosscoder:
+  wandb_name: "ckubmeg1"  # W&B run ID for the crosscoder
+  artifacts_dir: "../../.wandb_artifacts"
+
+# Hook Points Configuration
+hook_points:
+  # These are the hook points the SAE was trained on
+  available_hooks:
+    - "blocks.0.hook_resid_pre"
+    - "blocks.0.ln1.hook_normalized"
+    - "blocks.0.hook_resid_mid"
+    - "blocks.0.ln2.hook_normalized"
+    - "blocks.1.hook_resid_pre"
+    - "blocks.1.ln1.hook_normalized"
+    - "blocks.1.hook_resid_mid"
+    - "blocks.1.ln2.hook_normalized"
+    - "blocks.2.hook_resid_pre"
+    - "blocks.2.ln1.hook_normalized"
+    - "blocks.2.hook_resid_mid"
+    - "blocks.2.ln2.hook_normalized"
+    - "blocks.3.hook_resid_pre"
+    - "blocks.3.ln1.hook_normalized"
+    - "blocks.3.hook_resid_mid"
+    - "blocks.3.ln2.hook_normalized"
+    - "blocks.3.hook_resid_post"
+
+  # Hook points to use for Shapley analysis
+  start_hook: "blocks.0.hook_resid_pre"  # Where to inject SAE reconstruction
+  end_hook: "blocks.1.hook_resid_pre"    # Where to measure output (use next layer's input)
+
+# Shapley Calculation Parameters
+shapley:
+  num_samples: 500              # Number of samples for Shapley approximation
+  max_features: 20              # Maximum features to consider per calculation
+  layer: 0                      # Which model layer to analyze (0-3)
+  threshold: 0.01               # Minimum activation threshold
+  small_threshold: 0.00000001   # Minimum threshold for feature selection
+  batch_size: 32                # Batch size for processing
+  num_stories: 1                # Number of stories to process
+  verbose: true                 # Print progress information
+
+# Analysis Settings
+analysis:
+  save_results: true            # Save results to files
+  output_dir: "shapley_results" # Directory for saving results
+  save_format: "npz"            # Format for saving ("npz", "pkl", "csv")
+
+# Performance Settings
+performance:
+  device: "auto"                # Device selection
+  memory_cleanup: true          # Clean up tensors after processing
+  timeout_minutes: 30           # Max runtime before timeout

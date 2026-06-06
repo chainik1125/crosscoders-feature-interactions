@@ -1,0 +1,14 @@
+hookpoints:
+    value:
+        - blocks.0.hook_resid_pre
+        - blocks.0.hook_resid_mid
+        - blocks.0.hook_resid_post
+        - blocks.1.hook_resid_pre
+        - blocks.1.hook_resid_mid
+        - blocks.1.hook_resid_post
+        - blocks.2.hook_resid_pre
+        - blocks.2.hook_resid_mid
+        - blocks.2.hook_resid_post
+        - blocks.3.hook_resid_pre
+        - blocks.3.hook_resid_mid
+        - blocks.3.hook_resid_post
